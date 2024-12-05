@@ -4,9 +4,7 @@ import OurStore from "@/components/othersPages/OurStore";
 import React from "react";
 
 export const metadata = {
-  title: "Our Stores || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
-};
+  title: "Our Stores || vestra "};
 export default function page() {
   return (
     <>

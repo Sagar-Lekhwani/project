@@ -6,9 +6,7 @@ import Faq1 from "@/components/othersPages/faq/Faq1";
 import React from "react";
 import Link from "next/link";
 export const metadata = {
-  title: "Faq 1 || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
-};
+  title: "Faq 1 || vestra "};
 export default function page() {
   return (
     <>

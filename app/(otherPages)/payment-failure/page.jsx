@@ -4,9 +4,7 @@ import PaymentFailure from "@/components/othersPages/PaymentFailure";
 import React from "react";
 
 export const metadata = {
-  title: "Payment Failure || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
-};
+  title: "Payment Failure || vestra "};
 export default function page() {
   return (
     <>

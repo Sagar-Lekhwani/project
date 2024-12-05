@@ -14,8 +14,8 @@ import Marquee from "@/components/homes/home-1/Marquee";
 import Products from "@/components/homes/home-1/Products";
 
 export const metadata = {
-  title: "Home 1 || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "project",
+  description: "vestra",
 };
 export default function Home() {
   return (

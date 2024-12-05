@@ -5,9 +5,7 @@ import MyAccount from "@/components/othersPages/dashboard/MyAccount";
 import React from "react";
 
 export const metadata = {
-  title: "My Account || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
-};
+  title: "My Account || vestra "};
 export default function page() {
   return (
     <>

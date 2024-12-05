@@ -4,8 +4,8 @@ import Topbar1 from "@/components/headers/Topbar1";
 import Categories from "@/components/homes/home-1/Categories";
 
 export const metadata = {
-  title: "Categories  || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "Categories",
+  description: "vestra",
 };
 export default function page() {
   return (
