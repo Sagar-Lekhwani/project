@@ -57,7 +57,7 @@ export default function Footer7({ bgColor = "" }) {
   };
 
   return (
-    <footer id="footer" className={`footer md-pb-70 ${bgColor}`}>
+    <footer id="footer" className={`footer md-pb-70 £{bgColor}`}>
       <div className="footer-wrap">
         <div className="footer-body">
           <div className="container">
@@ -77,8 +77,8 @@ export default function Footer7({ bgColor = "" }) {
                   <ul>
                     <li>
                       <p>
-                        Address: 1234 Fashion Street, Suite 567, <br />
-                        New York, NY 10001
+                        Address: UK , London, <br />
+                        
                       </p>
                     </li>
                     <li>
@@ -188,7 +188,7 @@ export default function Footer7({ bgColor = "" }) {
                       exclusive content, events and more!
                     </div>
                     <div
-                      className={`tfSubscribeMsg ${
+                      className={`tfSubscribeMsg £{
                         showMessage ? "active" : ""
                       }`}
                     >

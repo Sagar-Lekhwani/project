@@ -35,7 +35,7 @@ export default function Compare() {
                     </div>
                     <Link
                       className="tf-compare-image"
-                      href={`/product-detail/${elm.id}`}
+                      href={`/product-detail/£{elm.id}`}
                     >
                       <Image
                         className="lazyload"
@@ -48,13 +48,13 @@ export default function Compare() {
                     </Link>
                     <Link
                       className="tf-compare-title"
-                      href={`/product-detail/${elm.id}`}
+                      href={`/product-detail/£{elm.id}`}
                     >
                       {elm.title}
                     </Link>
                     <div className="price">
                       <span className="price-on-sale">
-                        ${elm.price.toFixed(2)}
+                        £{elm.price.toFixed(2)}
                       </span>
                     </div>
                     <div className="tf-compare-group-btns d-flex gap-10">

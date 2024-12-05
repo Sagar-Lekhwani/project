@@ -6,17 +6,17 @@ export const testimonials = [
     metas: "Customer from USA",
     imageSrc: "/images/shop/products/img-p2.png",
     productTitle: "Jersey thong body",
-    price: "$105.95",
+    price: "£105.95",
     delay: "0s",
   },
   {
     heading: "Great Selection and Quality",
     text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
     name: "Allen Lyn",
-    metas: "Customer from France",
+    metas: "Customer from UK",
     imageSrc: "/images/shop/products/img-p3.png",
     productTitle: "Cotton jersey top",
-    price: "$7.95",
+    price: "£7.95",
     delay: ".1s",
   },
   {
@@ -26,7 +26,7 @@ export const testimonials = [
     metas: "Customer from USA",
     imageSrc: "/images/shop/products/img-p4.png",
     productTitle: "Ribbed modal T-shirt",
-    price: "From $18.95",
+    price: "From £18.95",
     delay: ".2s",
   },
   {
@@ -36,7 +36,7 @@ export const testimonials = [
     metas: "Customer from Japan",
     imageSrc: "/images/shop/products/img-p5.png",
     productTitle: "Customer from Japan",
-    price: "$16.95",
+    price: "£16.95",
     delay: ".3s",
   },
 ];
@@ -365,17 +365,17 @@ export const testimonialData = [
     authorMeta: "Customer from USA",
     productImgSrc: "/images/products/decor-17.jpg",
     productTitle: "Jersey thong body",
-    productPrice: "$105.95",
+    productPrice: "£105.95",
   },
   {
     rating: 5,
     heading: "Great Selection and Quality",
     text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
     authorName: "Allen Lyn",
-    authorMeta: "Customer from France",
+    authorMeta: "Customer from UK",
     productImgSrc: "/images/products/decor-12.jpg",
     productTitle: "Cotton jersey top",
-    productPrice: "$7.95",
+    productPrice: "£7.95",
   },
   {
     rating: 5,
@@ -385,7 +385,7 @@ export const testimonialData = [
     authorMeta: "Customer from USA",
     productImgSrc: "/images/products/decor-1.jpg",
     productTitle: "Ribbed modal T-shirt",
-    productPrice: "From $18.95",
+    productPrice: "From £18.95",
   },
   {
     rating: 5,
@@ -395,7 +395,7 @@ export const testimonialData = [
     authorMeta: "Customer from Japan",
     productImgSrc: "/images/products/decor-4.jpg",
     productTitle: "Customer from Japan",
-    productPrice: "$16.95",
+    productPrice: "£16.95",
   },
 ];
 
@@ -408,17 +408,17 @@ export const testimonials7 = [
     authorMeta: "Customer from USA",
     productImage: "/images/collections/electronic-16.jpg",
     productTitle: "3-in-1 Wireless Charger with Official MagSafe Charging 15W",
-    productPrice: "$105.95",
+    productPrice: "£105.95",
   },
   {
     rating: 5,
     heading: "Great Selection and Quality",
     text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
     authorName: "Allen Lyn",
-    authorMeta: "Customer from France",
+    authorMeta: "Customer from UK",
     productImage: "/images/collections/electronic-12.png",
     productTitle: "SoundForm Rise",
-    productPrice: "$7.95",
+    productPrice: "£7.95",
   },
   {
     rating: 5,
@@ -428,7 +428,7 @@ export const testimonials7 = [
     authorMeta: "Customer from USA",
     productImage: "/images/collections/electronic-8.png",
     productTitle: "UltraGlass 2 Treated Screen Protector for iPhone 15 Pro",
-    productPrice: "From $18.95",
+    productPrice: "From £18.95",
   },
   {
     rating: 5,
@@ -438,7 +438,7 @@ export const testimonials7 = [
     authorMeta: "Customer from Japan",
     productImage: "/images/collections/electronic-10.png",
     productTitle: "3-in-1 Wireless Charger with Official MagSafe Charging 15W",
-    productPrice: "$16.95",
+    productPrice: "£16.95",
   },
 ];
 
@@ -455,7 +455,7 @@ export const testimonials8 = [
       imgSrc: "/images/collections/setup-gear-1.jpg",
       imgAlt: "",
       title: "3-in-1 Wireless Charger with Official MagSafe Charging 15W",
-      price: "$105.95",
+      price: "£105.95",
     },
     delay: "0s",
   },
@@ -465,13 +465,13 @@ export const testimonials8 = [
     text: "“ I love the variety of styles and the high-quality clothing on this web fashion site.”",
     author: {
       name: "Allen Lyn",
-      meta: "Customer from France",
+      meta: "Customer from UK",
     },
     product: {
       imgSrc: "/images/collections/setup-gear-2.jpg",
       imgAlt: "",
       title: "SoundForm Rise",
-      price: "$7.95",
+      price: "£7.95",
     },
     delay: ".1s",
   },
@@ -487,7 +487,7 @@ export const testimonials8 = [
       imgSrc: "/images/collections/setup-gear-3.jpg",
       imgAlt: "",
       title: "UltraGlass 2 Treated Screen Protector for iPhone 15 Pro",
-      price: "From $18.95",
+      price: "From £18.95",
     },
     delay: ".2s",
   },
@@ -503,7 +503,7 @@ export const testimonials8 = [
       imgSrc: "/images/collections/setup-gear-4.jpg",
       imgAlt: "",
       title: "3-in-1 Wireless Charger with Official MagSafe Charging 15W",
-      price: "$16.95",
+      price: "£16.95",
     },
     delay: ".3s",
   },
@@ -518,7 +518,7 @@ export const slides2 = [
     product: {
       imgSrc: "/images/item/lookbook-item-1.jpg",
       title: "Fry Pan",
-      price: "$105.95",
+      price: "£105.95",
 
       imgWidth: 160,
       imgHeight: 120,
@@ -529,11 +529,11 @@ export const slides2 = [
     rating: 5,
     heading: "Great Selection and Quality",
     text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
-    author: { name: "Allen Lyn", metas: "Customer from France" },
+    author: { name: "Allen Lyn", metas: "Customer from UK" },
     product: {
       imgSrc: "/images/item/lookbook-item-2.jpg",
       title: "Whistling Tea Kettle",
-      price: "$7.95",
+      price: "£7.95",
 
       imgWidth: 160,
       imgHeight: 120,
@@ -548,7 +548,7 @@ export const slides2 = [
     product: {
       imgSrc: "/images/item/lookbook-item-3.jpg",
       title: "Linen Apron",
-      price: "From $18.95",
+      price: "From £18.95",
 
       imgWidth: 160,
       imgHeight: 120,
@@ -563,7 +563,7 @@ export const slides2 = [
     product: {
       imgSrc: "/images/item/lookbook-item-4.jpg",
       title: "Sauce Pan",
-      price: "$16.95",
+      price: "£16.95",
 
       imgWidth: 70,
       imgHeight: 53,
@@ -654,7 +654,7 @@ export const testimonialData2 = [
     authorMeta: "Customer from USA",
     imgSrc: "/images/products/paddle-boards-1.jpg",
     productTitle: "3-in-1 Wireless Charger with Official MagSafe Charging 15W",
-    price: "$105.95",
+    price: "£105.95",
   },
   {
     rating: 5,
@@ -664,7 +664,7 @@ export const testimonialData2 = [
     authorMeta: "Customer from USA",
     imgSrc: "/images/products/paddle-boards-9.jpg",
     productTitle: "ISUP PADDLE BOARD",
-    price: "$105.95",
+    price: "£105.95",
   },
   {
     rating: 5,
@@ -674,7 +674,7 @@ export const testimonialData2 = [
     authorMeta: "Customer from USA",
     imgSrc: "/images/products/paddle-boards-11.jpg",
     productTitle: "KAYAK ISUP PADDLE ADAPTER",
-    price: "$105.95",
+    price: "£105.95",
   },
   {
     rating: 5,
@@ -684,7 +684,7 @@ export const testimonialData2 = [
     authorMeta: "Customer from USA",
     imgSrc: "/images/products/paddle-boards-8.jpg",
     productTitle: "ALL AROUND 9' ULTRA™",
-    price: "$105.95",
+    price: "£105.95",
   },
 ];
 
@@ -701,7 +701,7 @@ export const testimonials10 = [
     product: {
       imgSrc: "/images/products/pod-store-5.jpg",
       title: "Jersey thong body",
-      price: "$105.95",
+      price: "£105.95",
     },
   },
   {
@@ -711,12 +711,12 @@ export const testimonials10 = [
     text: "“ I love the variety of styles and the high-quality clothing on this web fashion site.”",
     author: {
       name: "Allen Lyn",
-      metas: "Customer from France",
+      metas: "Customer from UK",
     },
     product: {
       imgSrc: "/images/products/pod-store-8.jpg",
       title: "Cotton jersey top",
-      price: "$7.95",
+      price: "£7.95",
     },
   },
   {
@@ -731,7 +731,7 @@ export const testimonials10 = [
     product: {
       imgSrc: "/images/products/pod-store-9.jpg",
       title: "Ribbed modal T-shirt",
-      price: "From $18.95",
+      price: "From £18.95",
     },
   },
   {
@@ -746,7 +746,7 @@ export const testimonials10 = [
     product: {
       imgSrc: "/images/products/pod-store-10.jpg",
       title: "Customer from Japan",
-      price: "$16.95",
+      price: "£16.95",
     },
   },
 ];
@@ -762,7 +762,7 @@ export const testimonials11 = [
     product: {
       imgSrc: "/images/products/brown-11.jpg",
       title: "Crossover Leggings",
-      price: "$38.00",
+      price: "£38.00",
       link: "#",
     },
   },
@@ -776,7 +776,7 @@ export const testimonials11 = [
     product: {
       imgSrc: "/images/products/white-17.jpg",
       title: "Ruched Strappy Sports Bra",
-      price: "$38.00",
+      price: "£38.00",
       link: "#",
     },
   },
@@ -790,7 +790,7 @@ export const testimonials11 = [
     product: {
       imgSrc: "/images/products/blue-5.jpg",
       title: "Pocket Shorts",
-      price: "$38.00",
+      price: "£38.00",
       link: "#",
     },
   },
@@ -804,7 +804,7 @@ export const testimonials11 = [
     product: {
       imgSrc: "/images/products/sports-clothing-6.jpg",
       title: 'Crest 7" Shorts',
-      price: "$38.00",
+      price: "£38.00",
       link: "#",
     },
   },
@@ -887,7 +887,7 @@ export const testimonials14 = [
     productImgWidth: 70,
     productImgHeight: 70,
     productTitle: "Crossover Leggings",
-    productPrice: "$38.00",
+    productPrice: "£38.00",
     productLink: "#",
   },
   {
@@ -904,7 +904,7 @@ export const testimonials14 = [
     productImgWidth: 360,
     productImgHeight: 360,
     productTitle: "Crossover Leggings",
-    productPrice: "$38.00",
+    productPrice: "£38.00",
     productLink: "#",
   },
   {
@@ -921,7 +921,7 @@ export const testimonials14 = [
     productImgWidth: 360,
     productImgHeight: 360,
     productTitle: "Crossover Leggings",
-    productPrice: "$38.00",
+    productPrice: "£38.00",
     productLink: "#",
   },
 ];

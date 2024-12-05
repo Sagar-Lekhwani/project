@@ -12,7 +12,7 @@ export default function Announcmentbar({ bgColor = "bg_violet" }) {
             var announcementBar = this.closest(".announcement-bar");
             var height = announcementBar.offsetHeight + "px";
 
-            announcementBar.style.marginTop = `-${height}`;
+            announcementBar.style.marginTop = `-£{height}`;
 
             setTimeout(function () {
               announcementBar.style.display = "none";
@@ -24,7 +24,7 @@ export default function Announcmentbar({ bgColor = "bg_violet" }) {
     closeAnnouncement();
   }, []);
   return (
-    <div className={`announcement-bar ${bgColor}`}>
+    <div className={`announcement-bar £{bgColor}`}>
       <div className="wrap-announcement-bar">
         <div className="box-sw-announcement-bar speed-1">
           <div className="announcement-bar-item">

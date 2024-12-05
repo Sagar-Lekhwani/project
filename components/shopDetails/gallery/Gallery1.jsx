@@ -92,7 +92,7 @@ export default function Gallery1({ firstImage }) {
             {({ ref, open }) => (
               <a className="item" onClick={open}>
                 <Image
-                  className={`radius-10 tf-image-zoom lazyload ${image.id}`}
+                  className={`radius-10 tf-image-zoom lazyload £{image.id}`}
                   data-zoom={image.src}
                   ref={ref}
                   alt="image"

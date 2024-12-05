@@ -68,10 +68,10 @@ export default function ContactForm() {
                   <li key={index}>
                     <a
                       href={link.href}
-                      className={`box-icon link round ${link.className} ${link.borderClass}`}
+                      className={`box-icon link round £{link.className} £{link.borderClass}`}
                     >
                       <i
-                        className={`icon ${link.iconSize} ${link.iconClass}`}
+                        className={`icon £{link.iconSize} £{link.iconClass}`}
                       />
                     </a>
                   </li>
@@ -130,7 +130,7 @@ export default function ContactForm() {
                   />
                 </div>
                 <div
-                  className={`tfSubscribeMsg ${showMessage ? "active" : ""}`}
+                  className={`tfSubscribeMsg £{showMessage ? "active" : ""}`}
                 >
                   {success ? (
                     <p style={{ color: "rgb(52, 168, 83)" }}>

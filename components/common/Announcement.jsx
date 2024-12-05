@@ -15,7 +15,7 @@ export default function Announcement({ bgColor = "bg_primary" }) {
             var announcementBar = this.closest(".announcement-bar");
             var height = announcementBar.offsetHeight + "px";
 
-            announcementBar.style.marginTop = `-${height}`;
+            announcementBar.style.marginTop = `-£{height}`;
 
             setTimeout(function () {
               announcementBar.style.display = "none";
@@ -27,7 +27,7 @@ export default function Announcement({ bgColor = "bg_primary" }) {
     closeAnnouncement();
   }, []);
   return (
-    <div className={`announcement-bar ${bgColor}`}>
+    <div className={`announcement-bar £{bgColor}`}>
       <div className="container-full">
         <div className="row justify-content-center">
           <div className="col-xl-3 col-md-4 col-12 text-center wrap-announcement-bar-2">

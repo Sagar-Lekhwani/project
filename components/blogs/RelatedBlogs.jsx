@@ -33,7 +33,7 @@ export default function RelatedBlogs() {
               <SwiperSlide key={index}>
                 <div className="blog-article-item">
                   <div className="article-thumb radius-10">
-                    <Link href={`/blog-detail/${article.id}`}>
+                    <Link href={`/blog-detail/£{article.id}`}>
                       <Image
                         src={article.imgSrc}
                         alt={article.alt}
@@ -53,13 +53,13 @@ export default function RelatedBlogs() {
                   </div>
                   <div className="article-content">
                     <div className="article-title">
-                      <Link href={`/blog-detail/${article.id}`}>
+                      <Link href={`/blog-detail/£{article.id}`}>
                         {article.title}
                       </Link>
                     </div>
                     <div className="article-btn">
                       <Link
-                        href={`/blog-detail/${article.id}`}
+                        href={`/blog-detail/£{article.id}`}
                         className="tf-btn btn-line fw-6"
                       >
                         Read more

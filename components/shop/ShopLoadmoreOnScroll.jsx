@@ -63,13 +63,13 @@ export default function ShopLoadmoreOnScroll() {
               {layouts.map((layout, index) => (
                 <li
                   key={index}
-                  className={`tf-view-layout-switch ${layout.className} ${
+                  className={`tf-view-layout-switch £{layout.className} £{
                     gridItems == layout.dataValueGrid ? "active" : ""
                   }`}
                   onClick={() => setGridItems(layout.dataValueGrid)}
                 >
                   <div className="item">
-                    <span className={`icon ${layout.iconClass}`} />
+                    <span className={`icon £{layout.iconClass}`} />
                   </div>
                 </li>
               ))}
@@ -88,7 +88,7 @@ export default function ShopLoadmoreOnScroll() {
               {!loaded && (
                 <button
                   ref={elementRef}
-                  className={`tf-btn-loading tf-loading-default animate-hover-btn btn-loadmore ${
+                  className={`tf-btn-loading tf-loading-default animate-hover-btn btn-loadmore £{
                     loading ? "loading" : ""
                   } `}
                   onClick={() => handleLoad()}

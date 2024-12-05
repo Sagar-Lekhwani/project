@@ -64,7 +64,7 @@ export default function BlogSidebar() {
                     <li key={post.id}>
                       <div className="blog-article-item style-sidebar">
                         <div className="article-thumb">
-                          <Link href={`/blog-detail/${post.id}`}>
+                          <Link href={`/blog-detail/£{post.id}`}>
                             <Image
                               alt={post.title}
                               src={post.imgSrc}
@@ -76,14 +76,14 @@ export default function BlogSidebar() {
                         <div className="article-content">
                           <div className="article-label">
                             <Link
-                              href={`/blog-detail/${post.id}`}
+                              href={`/blog-detail/£{post.id}`}
                               className="tf-btn btn-sm radius-3 btn-fill animate-hover-btn"
                             >
                               {post.label}
                             </Link>
                           </div>
                           <div className="article-title">
-                            <Link href={`/blog-detail/${post.id}`} className="">
+                            <Link href={`/blog-detail/£{post.id}`} className="">
                               {post.title}
                             </Link>
                           </div>

@@ -34,7 +34,7 @@ export default function ScrollTop() {
 
   return (
     <div
-      className={`progress-wrap ${scrolled > 150 ? "active-progress" : ""}`}
+      className={`progress-wrap £{scrolled > 150 ? "active-progress" : ""}`}
       onClick={() => scrollToTop()}
     >
       <svg

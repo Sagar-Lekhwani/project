@@ -22,7 +22,7 @@ export default function page() {
                 <h4>Delivery</h4>
                 <ul className="tag-list">
                   <li>All orders shipped with UPS Express.</li>
-                  <li>Always free shipping for orders over US $250.</li>
+                  <li>Always free shipping for orders over US £250.</li>
                   <li>All orders are shipped with a UPS tracking number.</li>
                 </ul>
               </div>

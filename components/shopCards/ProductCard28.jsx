@@ -20,7 +20,7 @@ export default function Shopcard28({ product }) {
   return (
     <div className="card-product style-8">
       <div className="card-product-wrapper">
-        <Link href={`/product-detail/${product.id}`} className="product-img">
+        <Link href={`/product-detail/£{product.id}`} className="product-img">
           <Image
             width={360}
             height={360}
@@ -44,7 +44,7 @@ export default function Shopcard28({ product }) {
             className="box-icon bg_white wishlist btn-icon-action"
           >
             <span
-              className={`icon icon-heart ${
+              className={`icon icon-heart £{
                 isAddedtoWishlist(product.id) ? "added" : ""
               }`}
             />
@@ -64,7 +64,7 @@ export default function Shopcard28({ product }) {
             className="box-icon bg_white compare btn-icon-action"
           >
             <span
-              className={`icon icon-compare ${
+              className={`icon icon-compare £{
                 isAddedtoCompareItem(product.id) ? "added" : ""
               }`}
             />
@@ -93,21 +93,21 @@ export default function Shopcard28({ product }) {
         )}
       </div>
       <div className="card-product-info text-center">
-        <Link href={`/product-detail/${product.id}`} className="title link">
+        <Link href={`/product-detail/£{product.id}`} className="title link">
           {product.title}
         </Link>
-        <span className="price">${product.price.toFixed(2)}</span>
+        <span className="price">£{product.price.toFixed(2)}</span>
         <ul className="list-color-product justify-content-center">
           {product.colors.map((color, index) => (
             <li
-              className={`list-color-item color-swatch ${
+              className={`list-color-item color-swatch £{
                 currentImage == color.imgSrc ? "active" : ""
               }`}
               onMouseOver={() => setCurrentImage(color.imgSrc)}
               key={index}
             >
               <span className="tooltip">{color.name}</span>
-              <span className={`swatch-value ${color.colorClass}`} />
+              <span className={`swatch-value £{color.colorClass}`} />
               <Image
                 width={360}
                 height={360}

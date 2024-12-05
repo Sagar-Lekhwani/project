@@ -84,7 +84,7 @@ export default function ContactForm2() {
               />
             </div>
             <div className="send-wrap">
-              <div className={`tfSubscribeMsg ${showMessage ? "active" : ""}`}>
+              <div className={`tfSubscribeMsg £{showMessage ? "active" : ""}`}>
                 {success ? (
                   <p style={{ color: "rgb(52, 168, 83)" }}>
                     Message has been sent successfully.

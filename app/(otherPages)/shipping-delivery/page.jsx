@@ -21,7 +21,7 @@ export default function page() {
               <div className="box">
                 <h4>Delivery</h4>
                 <p>All orders shipped with UPS Express.</p>
-                <p>Always free shipping for orders over US $250.</p>
+                <p>Always free shipping for orders over US £250.</p>
                 <p>All orders are shipped with a UPS tracking number.</p>
               </div>
               <div className="box">

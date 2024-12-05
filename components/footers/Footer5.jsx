@@ -75,8 +75,8 @@ export default function Footer5() {
                   <ul>
                     <li>
                       <p>
-                        Address: 1234 Fashion Street, Suite 567, <br />
-                        New York, NY 10001
+                        Address: UK , London, <br />
+                        
                       </p>
                     </li>
                     <li>
@@ -186,7 +186,7 @@ export default function Footer5() {
                       exclusive content, events and more!
                     </div>
                     <div
-                      className={`tfSubscribeMsg ${
+                      className={`tfSubscribeMsg £{
                         showMessage ? "active" : ""
                       }`}
                     >

@@ -48,9 +48,9 @@ export default function Details22({ product }) {
                   </div>
                   <div className="tf-product-info-price">
                     <div className="price-on-sale">
-                      ${product.price.toFixed(2)}
+                      £{product.price.toFixed(2)}
                     </div>
-                    <div className="compare-at-price">$10.00</div>
+                    <div className="compare-at-price">£10.00</div>
                     <div className="badges-on-sale">
                       <span>20</span>% OFF
                     </div>
@@ -120,7 +120,7 @@ export default function Details22({ product }) {
                           -{" "}
                         </span>
                         <span className="tf-qty-price">
-                          ${(product.price * quantity).toFixed(2)}
+                          £{(product.price * quantity).toFixed(2)}
                         </span>
                       </a>
                       <a
@@ -128,7 +128,7 @@ export default function Details22({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action"
                       >
                         <span
-                          className={`icon icon-heart ${
+                          className={`icon icon-heart £{
                             isAddedtoWishlist(product.id) ? "added" : ""
                           }`}
                         />
@@ -148,7 +148,7 @@ export default function Details22({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white compare btn-icon-action"
                       >
                         <span
-                          className={`icon icon-compare ${
+                          className={`icon icon-compare £{
                             isAddedtoCompareItem(product.id) ? "added" : ""
                           }`}
                         />

@@ -6,7 +6,7 @@ export default function ProductSinglePrevNext({ currentId = 1 }) {
   return (
     <div className="tf-breadcrumb-prev-next">
       <Link
-        href={`/product-detail/${currentId <= 1 ? 1 : currentId - 1}`}
+        href={`/product-detail/£{currentId <= 1 ? 1 : currentId - 1}`}
         className="tf-breadcrumb-prev hover-tooltip center"
       >
         <i className="icon icon-arrow-left" />
@@ -17,7 +17,7 @@ export default function ProductSinglePrevNext({ currentId = 1 }) {
         {/* <span className="tooltip">Back to Women</span> */}
       </a>
       <Link
-        href={`/product-detail/${
+        href={`/product-detail/£{
           currentId >= allProducts.length ? 1 : currentId + 1
         }`}
         className="tf-breadcrumb-next hover-tooltip center"

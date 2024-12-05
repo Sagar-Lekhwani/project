@@ -11,18 +11,18 @@ export default function Tab2() {
           <div className="col-12">
             <div className="flat-accordion has-btns toggle-description-tab">
               <div
-                className={`flat-toggle style-2 ${
+                className={`flat-toggle style-2 £{
                   activeTab == 1 ? "active" : ""
                 }`}
               >
                 <div
                   onClick={() => setActiveTab((pre) => (pre == 1 ? -1 : 1))}
-                  className={`toggle-title ${activeTab == 1 ? "active" : ""}`}
+                  className={`toggle-title £{activeTab == 1 ? "active" : ""}`}
                 >
                   Description
                 </div>
                 <div
-                  className={`toggle-content ${activeTab == 1 ? "active" : ""}`}
+                  className={`toggle-content £{activeTab == 1 ? "active" : ""}`}
                   style={{ display: "block" }}
                 >
                   <div className="">
@@ -86,18 +86,18 @@ export default function Tab2() {
                 </div>
               </div>
               <div
-                className={`flat-toggle style-2 ${
+                className={`flat-toggle style-2 £{
                   activeTab == 2 ? "active" : ""
                 }`}
               >
                 <div
                   onClick={() => setActiveTab((pre) => (pre == 2 ? -1 : 2))}
-                  className={`toggle-title ${activeTab == 2 ? "active" : ""}`}
+                  className={`toggle-title £{activeTab == 2 ? "active" : ""}`}
                 >
                   Additional Information
                 </div>
                 <div
-                  className={`toggle-content ${activeTab == 2 ? "active" : ""}`}
+                  className={`toggle-content £{activeTab == 2 ? "active" : ""}`}
                   style={{ display: "block" }}
                 >
                   <table className="tf-pr-attrs">
@@ -119,18 +119,18 @@ export default function Tab2() {
                 </div>
               </div>
               <div
-                className={`flat-toggle style-2 ${
+                className={`flat-toggle style-2 £{
                   activeTab == 3 ? "active" : ""
                 }`}
               >
                 <div
                   onClick={() => setActiveTab((pre) => (pre == 3 ? -1 : 3))}
-                  className={`toggle-title ${activeTab == 3 ? "active" : ""}`}
+                  className={`toggle-title £{activeTab == 3 ? "active" : ""}`}
                 >
                   Return Policies
                 </div>
                 <div
-                  className={`toggle-content ${activeTab == 3 ? "active" : ""}`}
+                  className={`toggle-content £{activeTab == 3 ? "active" : ""}`}
                   style={{ display: "block" }}
                 >
                   <div className="tf-page-privacy-policy">
@@ -190,18 +190,18 @@ export default function Tab2() {
                 </div>
               </div>
               <div
-                className={`flat-toggle style-2 ${
+                className={`flat-toggle style-2 £{
                   activeTab == 4 ? "active" : ""
                 }`}
               >
                 <div
                   onClick={() => setActiveTab((pre) => (pre == 4 ? -1 : 4))}
-                  className={`toggle-title ${activeTab == 4 ? "active" : ""}`}
+                  className={`toggle-title £{activeTab == 4 ? "active" : ""}`}
                 >
                   Custom tab
                 </div>
                 <div
-                  className={`toggle-content ${activeTab == 4 ? "active" : ""}`}
+                  className={`toggle-content £{activeTab == 4 ? "active" : ""}`}
                   style={{ display: "block" }}
                 >
                   <ul className="d-flex justify-content-center mb_18">

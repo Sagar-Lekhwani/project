@@ -16,7 +16,7 @@ export default function BlogLeftRightbar() {
                   <div key={index} className={article.colClass}>
                     <div className="blog-article-item">
                       <div className="article-thumb">
-                        <Link href={`/blog-detail/${article.id}`}>
+                        <Link href={`/blog-detail/£{article.id}`}>
                           <Image
                             className="lazyload"
                             data-src={article.imgSrc}
@@ -28,7 +28,7 @@ export default function BlogLeftRightbar() {
                         </Link>
                         <div className="article-label">
                           <Link
-                            href={`/blog-detail/${article.id}`}
+                            href={`/blog-detail/£{article.id}`}
                             className="tf-btn btn-sm radius-3 btn-fill animate-hover-btn"
                           >
                             {article.label}
@@ -37,13 +37,13 @@ export default function BlogLeftRightbar() {
                       </div>
                       <div className="article-content">
                         <div className="article-title">
-                          <Link href={`/blog-detail/${article.id}`}>
+                          <Link href={`/blog-detail/£{article.id}`}>
                             {article.title}
                           </Link>
                         </div>
                         <div className="article-btn">
                           <Link
-                            href={`/blog-detail/${article.id}`}
+                            href={`/blog-detail/£{article.id}`}
                             className="tf-btn btn-line fw-6"
                           >
                             Read more

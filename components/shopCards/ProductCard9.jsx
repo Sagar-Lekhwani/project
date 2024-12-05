@@ -17,7 +17,7 @@ export default function ProductCard9({ product }) {
   return (
     <div className="card-product style-line-hover">
       <div className="card-product-wrapper">
-        <Link href={`/product-detail/${product.id}`} className="product-img">
+        <Link href={`/product-detail/£{product.id}`} className="product-img">
           <Image
             className="lazyload img-product"
             data-src={product.imgSrc}
@@ -50,7 +50,7 @@ export default function ProductCard9({ product }) {
             className="box-icon bg_white wishlist btn-icon-action"
           >
             <span
-              className={`icon icon-heart ${
+              className={`icon icon-heart £{
                 isAddedtoWishlist(product.id) ? "added" : ""
               }`}
             />
@@ -69,7 +69,7 @@ export default function ProductCard9({ product }) {
             className="box-icon bg_white compare btn-icon-action"
           >
             <span
-              className={`icon icon-compare ${
+              className={`icon icon-compare £{
                 isAddedtoCompareItem(product.id) ? "added" : ""
               }`}
             />
@@ -94,18 +94,18 @@ export default function ProductCard9({ product }) {
       </div>
       <div className="card-product-info">
         <Link
-          href={`/product-detail/${product.id}`}
+          href={`/product-detail/£{product.id}`}
           className="title link fs-14 fw-7 text-uppercase"
         >
           {product.title}
         </Link>
-        <span className="price">${product.price.toFixed(2)}</span>
+        <span className="price">£{product.price.toFixed(2)}</span>
         {product.colors?.length > 0 && (
           <ul className="list-color-product">
             {product.colors.map((color, colorIndex) => (
               <li
                 key={colorIndex}
-                className={`list-color-item color-swatch ${
+                className={`list-color-item color-swatch £{
                   currentImage == color.imgSrc ? "active" : ""
                 }  `}
                 onMouseOver={() => setCurrentImage(color.imgSrc)}
@@ -113,7 +113,7 @@ export default function ProductCard9({ product }) {
                 <span className="tooltip">
                   {color.tooltip ? color.tooltip : color.name}
                 </span>
-                <span className={`swatch-value ${color.colorClass}`} />
+                <span className={`swatch-value £{color.colorClass}`} />
                 {color.imgSrc && (
                   <Image
                     className="lazyload"

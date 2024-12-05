@@ -195,7 +195,7 @@ export default function Footer4() {
                       exclusive content, events and more!
                     </div>
                     <div
-                      className={`tfSubscribeMsg ${
+                      className={`tfSubscribeMsg £{
                         showMessage ? "active" : ""
                       }`}
                     >

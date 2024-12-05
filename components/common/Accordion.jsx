@@ -38,10 +38,10 @@ export default function Accordion({ faqs = faqs1 }) {
         <div
           key={index}
           ref={(el) => (parentRefs.current[index] = el)}
-          className={`flat-toggle ${currentIndex == index ? "active" : ""}`}
+          className={`flat-toggle £{currentIndex == index ? "active" : ""}`}
         >
           <div
-            className={`toggle-title ${currentIndex == index ? "active" : ""}`}
+            className={`toggle-title £{currentIndex == index ? "active" : ""}`}
             ref={(el) => (questionRefs.current[index] = el)}
             onClick={() => {
               setCurrentIndex((pre) => (pre == index ? -1 : index));

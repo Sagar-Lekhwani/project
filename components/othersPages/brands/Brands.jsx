@@ -25,12 +25,12 @@ export default function Brands() {
             <button
               key={index}
               onClick={() => setCurrentTitle(filter.title)}
-              className={`tf-btns-filter tf-tab-link ${
+              className={`tf-btns-filter tf-tab-link £{
                 currentTitle?.toLowerCase() == filter.title.toLowerCase()
                   ? "is--active"
                   : ""
-              } ${filter.isDisabled ? "is-disable" : ""}`}
-              id={`tf_filter_${filter.title}`}
+              } £{filter.isDisabled ? "is-disable" : ""}`}
+              id={`tf_filter_£{filter.title}`}
             >
               <span>{filter.label}</span>
             </button>
@@ -39,7 +39,7 @@ export default function Brands() {
         <div id="parent" className="tf-brands-source-linklist d-grid">
           {selected.map((filter, index) => (
             <div
-              className={`tf_filter_${filter.title.toLowerCase()} tf-filter-item tf-tab-content ${
+              className={`tf_filter_£{filter.title.toLowerCase()} tf-filter-item tf-tab-content £{
                 filter.brands.length === 0 ? "is-disable" : ""
               }`}
               key={index}

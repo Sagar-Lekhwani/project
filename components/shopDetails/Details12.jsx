@@ -123,7 +123,7 @@ export default function Details12({ product }) {
                     </h5>
                   </div>
                   <div className="tf-product-info-price">
-                    <div className="price">${product.price}</div>
+                    <div className="price">£{product.price}</div>
                   </div>
                   <div className="tf-product-info-liveview">
                     <div className="liveview-count">20</div>
@@ -134,7 +134,7 @@ export default function Details12({ product }) {
                       <div className="variant-picker-label">
                         Denominations:{" "}
                         <span className="fw-6 variant-picker-label-value">
-                          ${currentPriceOption.value}
+                          £{currentPriceOption.value}
                         </span>
                       </div>
                       <form className="variant-picker-values">
@@ -153,7 +153,7 @@ export default function Details12({ product }) {
                               htmlFor={option.id}
                               data-value={option.value}
                             >
-                              <p>${option.value}</p>
+                              <p>£{option.value}</p>
                             </label>
                           </React.Fragment>
                         ))}
@@ -259,7 +259,7 @@ export default function Details12({ product }) {
                           -{" "}
                         </span>
                         <span className="tf-qty-price">
-                          ${(product.price * quantity).toFixed(2)}
+                          £{(product.price * quantity).toFixed(2)}
                         </span>
                       </a>
                       <a
@@ -267,7 +267,7 @@ export default function Details12({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action"
                       >
                         <span
-                          className={`icon icon-heart ${
+                          className={`icon icon-heart £{
                             isAddedtoWishlist(product.id) ? "added" : ""
                           }`}
                         />
@@ -286,7 +286,7 @@ export default function Details12({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white compare btn-icon-action"
                       >
                         <span
-                          className={`icon icon-compare ${
+                          className={`icon icon-compare £{
                             isAddedtoCompareItem(product.id) ? "added" : ""
                           }`}
                         />

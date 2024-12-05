@@ -51,10 +51,10 @@ export default function Map2() {
                     <li key={index}>
                       <a
                         href={link.href}
-                        className={`box-icon link round ${link.className} ${link.borderClass}`}
+                        className={`box-icon link round £{link.className} £{link.borderClass}`}
                       >
                         <i
-                          className={`icon ${link.iconSize} ${link.iconClass}`}
+                          className={`icon £{link.iconSize} £{link.iconClass}`}
                         />
                       </a>
                     </li>

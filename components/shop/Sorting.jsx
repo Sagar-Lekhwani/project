@@ -36,7 +36,7 @@ export default function Sorting({ products = products1, setFinalSorted }) {
           <div
             key={index}
             onClick={() => setSelectedOptions(item)}
-            className={`select-item ${item == selectedOptions ? "active" : ""}`}
+            className={`select-item £{item == selectedOptions ? "active" : ""}`}
           >
             <span className="text-value-item">{item.text}</span>
           </div>

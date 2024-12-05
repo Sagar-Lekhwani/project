@@ -47,9 +47,9 @@ export default function QuickAdd() {
                 />
               </div>
               <div className="content">
-                <Link href={`/product-detail/${item.id}`}>{item.title}</Link>
+                <Link href={`/product-detail/£{item.id}`}>{item.title}</Link>
                 <div className="tf-product-info-price">
-                  <div className="price">${item.price.toFixed(2)}</div>
+                  <div className="price">£{item.price.toFixed(2)}</div>
                 </div>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function QuickAdd() {
                         className="hover-tooltip radius-60"
                         data-value={color.value}
                       >
-                        <span className={`btn-checkbox ${color.className}`} />
+                        <span className={`btn-checkbox £{color.className}`} />
                         <span className="tooltip">{color.value}</span>
                       </label>
                     </React.Fragment>
@@ -126,7 +126,7 @@ export default function QuickAdd() {
                       ? "Already Added - "
                       : "Add to cart - "}
                   </span>
-                  <span className="tf-qty-price">${item.price.toFixed(2)}</span>
+                  <span className="tf-qty-price">£{item.price.toFixed(2)}</span>
                 </a>
                 <div className="tf-product-btn-wishlist btn-icon-action">
                   <i className="icon-heart" />

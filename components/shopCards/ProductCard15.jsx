@@ -17,14 +17,14 @@ export default function ProductCard15({ product }) {
   const slide = product;
   return (
     <div
-      className={` ${
+      className={` £{
         product.populer
           ? "card-product style-price bg_blue-6 radius-10 overflow-hidden "
           : "card-product style-price bg_grey-12 radius-10 overflow-hidden"
       }`}
     >
       <div className="card-product-wrapper rounded-0">
-        <Link href={`/product-detail/${product.id}`} className="product-img">
+        <Link href={`/product-detail/£{product.id}`} className="product-img">
           <Image
             className="lazyload img-product"
             src={currentImage}
@@ -41,7 +41,7 @@ export default function ProductCard15({ product }) {
           />
         </Link>
         <div
-          className={`list-product-btn absolute-2 ${
+          className={`list-product-btn absolute-2 £{
             !product.populer ? "style-blue" : ""
           }`}
         >
@@ -59,7 +59,7 @@ export default function ProductCard15({ product }) {
             className="box-icon wishlist btn-icon-action"
           >
             <span
-              className={`icon icon-heart ${
+              className={`icon icon-heart £{
                 isAddedtoWishlist(slide.id) ? "added" : ""
               }`}
             />
@@ -78,7 +78,7 @@ export default function ProductCard15({ product }) {
             className="box-icon compare btn-icon-action"
           >
             <span
-              className={`icon icon-compare ${
+              className={`icon icon-compare £{
                 isAddedtoCompareItem(product.id) ? "added" : ""
               }`}
             />
@@ -103,9 +103,9 @@ export default function ProductCard15({ product }) {
         <div className="on-sale-wrap text-end">
           <div
             className={`on-sale-item  fw-7 fs-12 
-              ${product.populer ? "best-seller" : ""} 
-              ${product.new ? "new" : ""} 
-              ${product.recommend ? "recommend" : ""} 
+              £{product.populer ? "best-seller" : ""} 
+              £{product.new ? "new" : ""} 
+              £{product.recommend ? "recommend" : ""} 
             `}
           >
             {" "}
@@ -120,7 +120,7 @@ export default function ProductCard15({ product }) {
           {slide.vendor}
         </Link>
         <Link
-          href={`/product-detail/${product.id}`}
+          href={`/product-detail/£{product.id}`}
           className="title fw-7 link"
         >
           {slide.title}
@@ -129,13 +129,13 @@ export default function ProductCard15({ product }) {
           {slide.colors.map((color, colorIndex) => (
             <li
               key={colorIndex}
-              className={`list-color-item color-swatch ${
+              className={`list-color-item color-swatch £{
                 currentImage == color.imgSrc ? "active" : ""
               }  `}
               onMouseOver={() => setCurrentImage(color.imgSrc)}
             >
               <span className="tooltip">{color.name}</span>
-              <span className={`swatch-value ${color.colorClass}`} />
+              <span className={`swatch-value £{color.colorClass}`} />
               <Image
                 className="lazyload"
                 src={color.imgSrc}
@@ -146,7 +146,7 @@ export default function ProductCard15({ product }) {
             </li>
           ))}
         </ul>
-        <div className="price">${slide.price.toFixed(2)}</div>
+        <div className="price">£{slide.price.toFixed(2)}</div>
       </div>
       <div className="tf-price-table-contents">
         <ul>
@@ -159,8 +159,8 @@ export default function ProductCard15({ product }) {
         </ul>
         <div className="tf-price-table-btn text-center">
           <Link
-            href={`/product-detail/${product.id}`}
-            className={` ${
+            href={`/product-detail/£{product.id}`}
+            className={` £{
               product.populer
                 ? "tf-btn btn-md radius-3 fw-7 btn-icon animate-hover-btn bg_white"
                 : "tf-btn btn-md radius-3 fw-7 bg_blue-6 btn-fill btn-icon animate-hover-btn"

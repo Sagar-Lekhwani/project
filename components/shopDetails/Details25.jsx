@@ -45,7 +45,7 @@ export default function Details25({ product }) {
                     </h5>
                   </div>
                   <div className="tf-product-info-price">
-                    <div className="price">${product.price.toFixed(2)}</div>
+                    <div className="price">£{product.price.toFixed(2)}</div>
                   </div>
                   <div className="tf-product-info-liveview">
                     <div className="liveview-count">20</div>
@@ -72,7 +72,7 @@ export default function Details25({ product }) {
                           -{" "}
                         </span>
                         <span className="tf-qty-price">
-                          ${(product.price * quantity).toFixed(2)}
+                          £{(product.price * quantity).toFixed(2)}
                         </span>
                       </a>
                       <a
@@ -80,7 +80,7 @@ export default function Details25({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action"
                       >
                         <span
-                          className={`icon icon-heart ${
+                          className={`icon icon-heart £{
                             isAddedtoWishlist(product.id) ? "added" : ""
                           }`}
                         />
@@ -100,7 +100,7 @@ export default function Details25({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white compare btn-icon-action"
                       >
                         <span
-                          className={`icon icon-compare ${
+                          className={`icon icon-compare £{
                             isAddedtoCompareItem(product.id) ? "added" : ""
                           }`}
                         />
@@ -190,14 +190,14 @@ export default function Details25({ product }) {
                         {bundleproducts.map((product, i) => (
                           <div
                             key={product.id}
-                            className={`tf-bundle-product-item item-has-checkox check ${
+                            className={`tf-bundle-product-item item-has-checkox check £{
                               i == 2 ? "pb_15 line mb_15" : ""
                             }`}
                           >
                             <div className="tf-product-bundle-image">
                               <Link
                                 className="radius-10 overflow-hidden"
-                                href={`/product-detail/${product.id}`}
+                                href={`/product-detail/£{product.id}`}
                               >
                                 <Image
                                   alt={product.title}
@@ -213,7 +213,7 @@ export default function Details25({ product }) {
                               </span>
                               <div className="tf-product-bundle-price">
                                 <div className="price">
-                                  ${product.price.toFixed(2)}
+                                  £{product.price.toFixed(2)}
                                 </div>{" "}
                                 {/* Format price */}
                               </div>

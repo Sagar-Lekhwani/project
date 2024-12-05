@@ -493,7 +493,7 @@ export const slideshowData2 = [
   {
     imgSrc: "/images/slider/paddle-boards-1.jpg",
     altText: "fashion-slideshow",
-    heading: "UNDER $120 <br /> WHILE SUPPLIES <br /> LAST!",
+    heading: "UNDER £120 <br /> WHILE SUPPLIES <br /> LAST!",
     subheading: "OUR BIGGEST SALE OF THE YEAR",
     buttonText: "Shop now",
     cardClass: "bg_blue-6",

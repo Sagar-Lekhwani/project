@@ -71,21 +71,21 @@ export default function page() {
                     <tbody>
                       <tr className="content">
                         <td>Standard Plan</td>
-                        <td>$443.00</td>
-                        <td>$921.80</td>
-                        <td>$9243</td>
+                        <td>£443.00</td>
+                        <td>£921.80</td>
+                        <td>£9243</td>
                       </tr>
                       <tr className="content">
                         <td>Extra Plan</td>
-                        <td>$413.00 </td>
-                        <td>$912.80</td>
-                        <td>$5943</td>
+                        <td>£413.00 </td>
+                        <td>£912.80</td>
+                        <td>£5943</td>
                       </tr>
                       <tr className="content">
                         <td className="total">Total Due</td>
                         <td />
                         <td />
-                        <td className="total">$9,750</td>
+                        <td className="total">£9,750</td>
                       </tr>
                     </tbody>
                   </table>

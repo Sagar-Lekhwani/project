@@ -248,7 +248,7 @@ export default function Slider5({
       >
         {images.map((slide, index) => (
           <SwiperSlide className="swiper-slide" key={index}>
-            <div className={`item ${slide.is3D ? "position-relative" : ""}`}>
+            <div className={`item £{slide.is3D ? "position-relative" : ""}`}>
               {slide.is3D && (
                 <div className="wrap-btn-viewer">
                   <i className="icon-btn3d"></i>

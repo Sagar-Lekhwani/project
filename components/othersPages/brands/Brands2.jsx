@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 const FilterItem = ({ className, title, brands }) => (
-  <div className={`tf-filter-item tf-tab-content ${className}`}>
+  <div className={`tf-filter-item tf-tab-content £{className}`}>
     <div className="tf-filter-item-inner">
       <div className="tf-titles-filter">
         <h4 className="tf-font-normal">{title}</h4>
@@ -58,12 +58,12 @@ export default function Brands2() {
             <button
               key={index}
               onClick={() => setCurrentTitle(filter.title)}
-              className={`tf-btns-filter tf-tab-link ${
+              className={`tf-btns-filter tf-tab-link £{
                 currentTitle?.toLowerCase() == filter.title.toLowerCase()
                   ? "is--active"
                   : ""
-              } ${filter.isDisabled ? "is-disable" : ""}`}
-              id={`tf_filter_${filter.title}`}
+              } £{filter.isDisabled ? "is-disable" : ""}`}
+              id={`tf_filter_£{filter.title}`}
             >
               <span>{filter.label}</span>
             </button>

@@ -52,7 +52,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
       <li className="menu-item">
         <a
           href="/"
-          className={`item-link ${Linkfs} ${textColor} ${
+          className={`item-link £{Linkfs} £{textColor} £{
             isMenuActive(allHomepages) ? "activeMenu" : ""
           } `}
         >
@@ -64,7 +64,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
             <div className="row-demo">
               {demoItems.map((item, index) => (
                 <div
-                  className={`demo-item ${
+                  className={`demo-item £{
                     isMenuActive(item) ? "activeMenu" : ""
                   } `}
                   key={index}
@@ -113,7 +113,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
       <li className="menu-item">
         <Link
           href="/shop-collection-sub"
-          className={`item-link ${Linkfs} ${textColor} ${
+          className={`item-link £{Linkfs} £{textColor} £{
             isMenuActive(productsPages) ? "activeMenu" : ""
           } `}
         >
@@ -132,7 +132,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
                         <li key={linkIndex}>
                           <Link
                             href={link.href}
-                            className={`menu-link-text link ${
+                            className={`menu-link-text link £{
                               isMenuActive(link) ? "activeMenu" : ""
                             }`}
                           >
@@ -207,7 +207,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
       <li className="menu-item">
         <Link
           href="/categories"
-          className={`item-link ${Linkfs} ${textColor} ${
+          className={`item-link £{Linkfs} £{textColor} £{
             pathname === "/categories" ? "activeMenu" : ""
           } `}
         >
@@ -226,7 +226,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
                         <li key={linkIndex}>
                           <Link
                             href={link.href}
-                            className={`menu-link-text link ${
+                            className={`menu-link-text link £{
                               isMenuActive(link) ? "activeMenu" : ""
                             }`}
                           >
@@ -301,7 +301,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
       {/* <li className="menu-item">
         <a
           href="#"
-          className={`item-link ${Linkfs} ${textColor}  ${
+          className={`item-link £{Linkfs} £{textColor}  £{
             isMenuActive(productDetailPages) ? "activeMenu" : ""
           }`}
         >
@@ -320,7 +320,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
                         <li key={linkIndex}>
                           <Link
                             href={linkItem.href}
-                            className={`menu-link-text link position-relative  ${
+                            className={`menu-link-text link position-relative  £{
                               isMenuActive(linkItem) ? "activeMenu" : ""
                             }`}
                           >
@@ -371,7 +371,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
       <li className="menu-item position-relative">
         <a
           href="#"
-          className={`item-link ${Linkfs} ${textColor}  ${
+          className={`item-link £{Linkfs} £{textColor}  £{
             isMenuActive(pages) ? "activeMenu" : ""
           }`}
         >
@@ -385,7 +385,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
                 {item.href.includes("#") ? (
                   <a
                     href={item.href}
-                    className={`${item.className} ${
+                    className={`£{item.className} £{
                       isMenuActive(item.links) ? "activeMenu" : ""
                     }`}
                   >
@@ -394,7 +394,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
                 ) : (
                   <Link
                     href={item.href}
-                    className={`${item.className}  ${
+                    className={`£{item.className}  £{
                       isMenuActive(item) ? "activeMenu" : ""
                     }`}
                     style={{ position: "relative" }}
@@ -415,7 +415,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
                         <li key={subIndex}>
                           <Link
                             href={subItem.href}
-                            className={`${subItem.className} ${
+                            className={`£{subItem.className} £{
                               isMenuActive(subItem) ? "activeMenu" : ""
                             }`}
                           >
@@ -441,7 +441,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
       <li className="menu-item position-relative">
         <a
           href="#"
-          className={`item-link ${Linkfs} ${textColor}  ${
+          className={`item-link £{Linkfs} £{textColor}  £{
             isMenuActive(blogLinks) ? "activeMenu" : ""
           }`}
         >
@@ -454,7 +454,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
               <li key={index}>
                 <Link
                   href={linkItem.href}
-                  className={`menu-link-text link text_black-2  ${
+                  className={`menu-link-text link text_black-2  £{
                     isMenuActive(linkItem) ? "activeMenu" : ""
                   }`}
                 >

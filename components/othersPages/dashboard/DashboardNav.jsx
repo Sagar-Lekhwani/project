@@ -17,7 +17,7 @@ export default function DashboardNav() {
         <li key={index}>
           <Link
             href={link.href}
-            className={`my-account-nav-item ${
+            className={`my-account-nav-item £{
               pathname == link.href ? "active" : ""
             }`}
           >

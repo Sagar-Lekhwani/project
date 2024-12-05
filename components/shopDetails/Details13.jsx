@@ -72,10 +72,10 @@ export default function Details13({ product }) {
                   </div>
                   <div className="tf-product-info-price">
                     <div className="price-on-sale">
-                      ${product.price.toFixed(2)}
+                      £{product.price.toFixed(2)}
                     </div>
                     <div className="compare-at-price">
-                      ${currentColor.oldPrice.toFixed(2)}
+                      £{currentColor.oldPrice.toFixed(2)}
                     </div>
                     <div className="badges-on-sale">
                       <span>20</span>% OFF
@@ -111,7 +111,7 @@ export default function Details13({ product }) {
                               data-value={color.value}
                             >
                               <span
-                                className={`btn-checkbox ${color.className}`}
+                                className={`btn-checkbox £{color.className}`}
                               />
                               <span className="tooltip">{color.value}</span>
                             </label>
@@ -178,7 +178,7 @@ export default function Details13({ product }) {
                             : "Add to cart"}
                         </span>
                         <span className="tf-qty-price">
-                          ${(product.price * quantity).toFixed(2)}
+                          £{(product.price * quantity).toFixed(2)}
                         </span>
                       </a>
                       <a
@@ -186,7 +186,7 @@ export default function Details13({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action"
                       >
                         <span
-                          className={`icon icon-heart ${
+                          className={`icon icon-heart £{
                             isAddedtoWishlist(product.id) ? "added" : ""
                           }`}
                         />
@@ -205,7 +205,7 @@ export default function Details13({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white compare btn-icon-action"
                       >
                         <span
-                          className={`icon icon-compare ${
+                          className={`icon icon-compare £{
                             isAddedtoCompareItem(product.id) ? "added" : ""
                           }`}
                         />

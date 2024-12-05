@@ -99,7 +99,7 @@ export default function QuickView() {
                   <h5>
                     <Link
                       className="link"
-                      href={`/product-detail/${quickViewItem.id}`}
+                      href={`/product-detail/£{quickViewItem.id}`}
                     >
                       {quickViewItem.title}
                     </Link>
@@ -115,7 +115,7 @@ export default function QuickView() {
                   </div>
                 </div>
                 <div className="tf-product-info-price">
-                  <div className="price">${quickViewItem.price.toFixed(2)}</div>
+                  <div className="price">£{quickViewItem.price.toFixed(2)}</div>
                 </div>
                 <div className="tf-product-description">
                   <p>
@@ -149,7 +149,7 @@ export default function QuickView() {
                             data-value={color.value}
                           >
                             <span
-                              className={`btn-checkbox ${color.className}`}
+                              className={`btn-checkbox £{color.className}`}
                             />
                             <span className="tooltip">{color.value}</span>
                           </label>
@@ -212,7 +212,7 @@ export default function QuickView() {
                           : "Add to cart - "}
                       </span>
                       <span className="tf-qty-price">
-                        ${quickViewItem.price.toFixed(2)}
+                        £{quickViewItem.price.toFixed(2)}
                       </span>
                     </a>
                     <a
@@ -220,7 +220,7 @@ export default function QuickView() {
                       className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action"
                     >
                       <span
-                        className={`icon icon-heart ${
+                        className={`icon icon-heart £{
                           isAddedtoWishlist(quickViewItem.id) ? "added" : ""
                         }`}
                       />
@@ -239,7 +239,7 @@ export default function QuickView() {
                       className="tf-product-btn-wishlist hover-tooltip box-icon bg_white compare btn-icon-action"
                     >
                       <span
-                        className={`icon icon-compare ${
+                        className={`icon icon-compare £{
                           isAddedtoCompareItem(quickViewItem.id) ? "added" : ""
                         }`}
                       />
@@ -269,7 +269,7 @@ export default function QuickView() {
                 </div>
                 <div>
                   <Link
-                    href={`/product-detail/${quickViewItem.id}`}
+                    href={`/product-detail/£{quickViewItem.id}`}
                     className="tf-btn fw-6 btn-line"
                   >
                     View full details

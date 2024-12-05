@@ -13,7 +13,7 @@ export default function Header2({
   return (
     <header
       id="header"
-      className={`header-default ${uppercase ? "header-uppercase" : ""}`}
+      className={`header-default £{uppercase ? "header-uppercase" : ""}`}
     >
       <div className="px_15 lg-px_40">
         <div className="row wrapper-header align-items-center">
@@ -79,7 +79,7 @@ export default function Header2({
               <li className="nav-wishlist">
                 <Link href={`/wishlist`} className="nav-icon-item">
                   <i className="icon icon-heart" />
-                  <span className={`count-box ${bgColor} ${textClass}`}>
+                  <span className={`count-box £{bgColor} £{textClass}`}>
                     <WishlistLength />
                   </span>
                 </Link>
@@ -91,7 +91,7 @@ export default function Header2({
                   className="nav-icon-item"
                 >
                   <i className="icon icon-bag" />
-                  <span className={`count-box ${bgColor} ${textClass}`}>
+                  <span className={`count-box £{bgColor} £{textClass}`}>
                     <CartLength />
                   </span>
                 </a>

@@ -28,7 +28,7 @@ export default function Sidebar() {
               <li key={index}>
                 <div className="blog-article-item style-sidebar">
                   <div className="article-thumb">
-                    <Link href={`/blog-detail/${article.id}`}>
+                    <Link href={`/blog-detail/£{article.id}`}>
                       <Image
                         alt="image"
                         src={article.imgSrc}
@@ -40,14 +40,14 @@ export default function Sidebar() {
                   <div className="article-content">
                     <div className="article-label">
                       <Link
-                        href={`/blog-detail/${article.id}`}
+                        href={`/blog-detail/£{article.id}`}
                         className="tf-btn btn-sm radius-3 btn-fill animate-hover-btn"
                       >
                         {article.label}
                       </Link>
                     </div>
                     <div className="article-title">
-                      <Link href={`/blog-detail/${article.id}`} className="">
+                      <Link href={`/blog-detail/£{article.id}`} className="">
                         {article.title}
                       </Link>
                     </div>

@@ -120,7 +120,7 @@ html {
 }
 
 body {
-    font-family: $font-main;
+    font-family: £font-main;
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
@@ -198,7 +198,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-    font-family: $font-main;
+    font-family: £font-main;
     border: 1px solid var(--line);
     outline: 0;
     -webkit-box-shadow: none;
@@ -263,17 +263,17 @@ textarea {
 /* Typography
 -------------------------------------------------------------- */
 .font-young-serif{
-    font-family: $font-Young-Serif;
+    font-family: £font-Young-Serif;
 }
 
 .font-gloock{
-    font-family: $font-gloock;
+    font-family: £font-gloock;
 }
 .font-caprasimo{
-    font-family: $font-caprasimo;
+    font-family: £font-caprasimo;
 }
 .font-poppins{
-    font-family: $font-poppins;
+    font-family: £font-poppins;
 }
 
 h1,
@@ -282,7 +282,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $font-main;
+    font-family: £font-main;
     text-rendering: optimizeLegibility;
     color: var(--main);
     font-weight: 400;

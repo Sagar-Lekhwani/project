@@ -3,7 +3,7 @@ export const iconBoxes = [
   {
     iconClass: "icon-shipping-1",
     title: "Free Shipping",
-    description: "Free shipping over order $120",
+    description: "Free shipping over order £120",
   },
   {
     iconClass: "icon-payment-1",
@@ -21,7 +21,7 @@ export const iconBoxData = [
   {
     iconClass: "icon-shipping",
     title: "Free Shipping",
-    description: "Free shipping over order $120",
+    description: "Free shipping over order £120",
   },
   {
     iconClass: "icon-payment fs-22",
@@ -41,7 +41,7 @@ export const iconBoxData = [
   {
     iconClass: "icon-shipping",
     title: "Free Shipping",
-    description: "Free shipping over order $120",
+    description: "Free shipping over order £120",
   },
   {
     iconClass: "icon-payment fs-22",
@@ -102,7 +102,7 @@ export const iconBoxes2 = [
 export const slides = [
   {
     iconClass: "icon-shipping",
-    title: "Free Shipping on Orders Over $120",
+    title: "Free Shipping on Orders Over £120",
     justifyClass: "justify-content-end",
   },
   {
@@ -127,7 +127,7 @@ export const iconBoxes3 = [
   {
     iconClass: "icon-shipping",
     title: "Free Shipping",
-    description: "Free shipping over order $120",
+    description: "Free shipping over order £120",
   },
   {
     iconClass: "icon-payment fs-22",

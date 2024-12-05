@@ -21,7 +21,7 @@ export default function ProductsCard21({ product }) {
   return (
     <div className="card-product style-8">
       <div className="card-product-wrapper">
-        <Link href={`/product-detail/${product.id}`} className="product-img">
+        <Link href={`/product-detail/£{product.id}`} className="product-img">
           <Image
             className="lazyload img-product"
             data-src={product.imgSrc}
@@ -45,7 +45,7 @@ export default function ProductsCard21({ product }) {
             className="box-icon bg_white wishlist btn-icon-action"
           >
             <span
-              className={`icon icon-heart ${
+              className={`icon icon-heart £{
                 isAddedtoWishlist(product.id) ? "added" : ""
               }`}
             />
@@ -64,7 +64,7 @@ export default function ProductsCard21({ product }) {
             className="box-icon bg_white compare btn-icon-action"
           >
             <span
-              className={`icon icon-compare ${
+              className={`icon icon-compare £{
                 isAddedtoCompareItem(product.id) ? "added" : ""
               }`}
             />
@@ -96,7 +96,7 @@ export default function ProductsCard21({ product }) {
             {product.saleInfo.map((info, i) => (
               <React.Fragment key={i}>
                 <div
-                  className={`on-sale-item ${
+                  className={`on-sale-item £{
                     info == "Pre-Order" ? "pre-order" : ""
                   }`}
                 >
@@ -108,21 +108,21 @@ export default function ProductsCard21({ product }) {
         )}
       </div>
       <div className="card-product-info">
-        <Link href={`/product-detail/${product.id}`} className="title link">
+        <Link href={`/product-detail/£{product.id}`} className="title link">
           {product.title}
         </Link>
         <span className="price">
           {product.oldPrice && (
             <span className="old-price">{product.oldPrice}</span>
           )}
-          ${product.price.toFixed(2)}
+          £{product.price.toFixed(2)}
         </span>
         <div className="pr-stock">
           <div className="progress">
             <div
               className="progress-bar"
               role="progressbar"
-              style={{ width: `${product.progress}%` }}
+              style={{ width: `£{product.progress}%` }}
               aria-valuenow={product.progress}
               aria-valuemin={0}
               aria-valuemax={100}

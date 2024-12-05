@@ -22,7 +22,7 @@ export default function Tab4() {
                   <li
                     key={i}
                     onClick={() => setCurrentTab(i + 1)}
-                    className={`item-title ${
+                    className={`item-title £{
                       currentTab == i + 1 ? "active" : ""
                     } `}
                   >
@@ -32,7 +32,7 @@ export default function Tab4() {
               </ul>
               <div className="widget-content-tab">
                 <div
-                  className={`widget-content-inner ${
+                  className={`widget-content-inner £{
                     currentTab == 1 ? "active" : ""
                   } `}
                 >
@@ -96,7 +96,7 @@ export default function Tab4() {
                   </div>
                 </div>
                 <div
-                  className={`widget-content-inner ${
+                  className={`widget-content-inner £{
                     currentTab == 2 ? "active" : ""
                   } `}
                 >
@@ -118,7 +118,7 @@ export default function Tab4() {
                   </table>
                 </div>
                 <div
-                  className={`widget-content-inner ${
+                  className={`widget-content-inner £{
                     currentTab == 3 ? "active" : ""
                   } `}
                 >
@@ -178,7 +178,7 @@ export default function Tab4() {
                   </div>
                 </div>
                 <div
-                  className={`widget-content-inner ${
+                  className={`widget-content-inner £{
                     currentTab == 4 ? "active" : ""
                   } `}
                 >

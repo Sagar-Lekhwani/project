@@ -79,7 +79,7 @@
     background-color: transparent;
   }
   &::after {
-    font-family: $fontIcon;
+    font-family: £fontIcon;
     position: absolute;
     content: "\e904";
     right: 10px;
@@ -166,7 +166,7 @@
     }
   }
   &::before {
-    font-family: $fontIcon;
+    font-family: £fontIcon;
     content: "\e911";
     position: absolute;
     color: var(--white);
@@ -198,7 +198,7 @@
     }
   }
   &::before {
-    font-family: $fontIcon;
+    font-family: £fontIcon;
     content: "\e911";
     position: absolute;
     color: var(--white);
@@ -393,7 +393,7 @@
     background-color: transparent;
   }
   &::after {
-    font-family: $fontIcon;
+    font-family: £fontIcon;
     position: absolute;
     content: "\e904";
     right: 8px;

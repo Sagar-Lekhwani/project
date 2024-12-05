@@ -60,10 +60,10 @@ export default function Details7() {
                   </div>
                   <div className="tf-product-info-price">
                     <div className="price-on-sale">
-                      ${product.price.toFixed(2)}
+                      £{product.price.toFixed(2)}
                     </div>
                     <div className="compare-at-price">
-                      ${currentColor.oldPrice.toFixed(2)}
+                      £{currentColor.oldPrice.toFixed(2)}
                     </div>
                     <div className="badges-on-sale">
                       <span>20</span>% OFF
@@ -112,7 +112,7 @@ export default function Details7() {
                               data-value={color.value}
                             >
                               <span
-                                className={`btn-checkbox ${color.className}`}
+                                className={`btn-checkbox £{color.className}`}
                               />
                               <span className="tooltip">{color.value}</span>
                             </label>
@@ -171,7 +171,7 @@ export default function Details7() {
                       >
                         <span>Add to cart -&nbsp;</span>
                         <span className="tf-qty-price">
-                          ${(product.price * quantity).toFixed(2)}
+                          £{(product.price * quantity).toFixed(2)}
                         </span>
                       </a>
                       <a

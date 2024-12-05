@@ -19,7 +19,7 @@ export const ProductCardWishlist = ({ product }) => {
   return (
     <div className="card-product fl-item" key={product.id}>
       <div className="card-product-wrapper">
-        <Link href={`/product-detail/${product.id}`} className="product-img">
+        <Link href={`/product-detail/£{product.id}`} className="product-img">
           <Image
             className="lazyload img-product"
             data-src={product.imgSrc}
@@ -64,7 +64,7 @@ export const ProductCardWishlist = ({ product }) => {
             className="box-icon bg_white wishlist btn-icon-action"
           >
             <span
-              className={`icon icon-heart ${
+              className={`icon icon-heart £{
                 isAddedtoWishlist(product.id) ? "added" : ""
               }`}
             />
@@ -83,7 +83,7 @@ export const ProductCardWishlist = ({ product }) => {
             className="box-icon bg_white compare btn-icon-action"
           >
             <span
-              className={`icon icon-compare ${
+              className={`icon icon-compare £{
                 isAddedtoCompareItem(product.id) ? "added" : ""
               }`}
             />
@@ -121,22 +121,22 @@ export const ProductCardWishlist = ({ product }) => {
         )}
       </div>
       <div className="card-product-info">
-        <Link href={`/product-detail/${product.id}`} className="title link">
+        <Link href={`/product-detail/£{product.id}`} className="title link">
           {product.title}
         </Link>
-        <span className="price">${product.price.toFixed(2)}</span>
+        <span className="price">£{product.price.toFixed(2)}</span>
         {product.colors && (
           <ul className="list-color-product">
             {product.colors.map((color) => (
               <li
-                className={`list-color-item color-swatch ${
+                className={`list-color-item color-swatch £{
                   currentImage == color.imgSrc ? "active" : ""
                 } `}
                 key={color.name}
                 onMouseOver={() => setCurrentImage(color.imgSrc)}
               >
                 <span className="tooltip">{color.name}</span>
-                <span className={`swatch-value ${color.colorClass}`} />
+                <span className={`swatch-value £{color.colorClass}`} />
                 <Image
                   className="lazyload"
                   data-src={color.imgSrc}

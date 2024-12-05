@@ -35,7 +35,7 @@ export default function LanguageSelect({
   return (
     <>
       <div
-        className={`dropdown bootstrap-select ${parentClassName}  dropup `}
+        className={`dropdown bootstrap-select £{parentClassName}  dropup `}
         onClick={() => setIsDDOpen((pre) => !pre)}
         ref={languageSelect}
       >
@@ -52,7 +52,7 @@ export default function LanguageSelect({
         <button
           type="button"
           tabIndex={-1}
-          className={`btn dropdown-toggle btn-light  ${
+          className={`btn dropdown-toggle btn-light  £{
             isDDOpen ? "show" : ""
           } `}
         >
@@ -63,7 +63,7 @@ export default function LanguageSelect({
           </div>
         </button>
         <div
-          className={`dropdown-menu ${isDDOpen ? "show" : ""} `}
+          className={`dropdown-menu £{isDDOpen ? "show" : ""} `}
           style={{
             maxHeight: "899.688px",
             overflow: "hidden",
@@ -71,9 +71,9 @@ export default function LanguageSelect({
             position: "absolute",
             inset: "auto auto 0px 0px",
             margin: 0,
-            transform: `translate(0px, ${topStart ? 22 : -20}px)`,
+            transform: `translate(0px, £{topStart ? 22 : -20}px)`,
           }}
-          data-popper-placement={`${!topStart ? "top" : "bottom"}-start`}
+          data-popper-placement={`£{!topStart ? "top" : "bottom"}-start`}
         >
           <div
             className="inner show"
@@ -92,10 +92,10 @@ export default function LanguageSelect({
                 <li
                   key={i}
                   onClick={() => setSelected(elm)}
-                  className={`selected ${selected == elm ? "active" : ""}`}
+                  className={`selected £{selected == elm ? "active" : ""}`}
                 >
                   <a
-                    className={`dropdown-item ${
+                    className={`dropdown-item £{
                       selected == elm ? "active selected" : ""
                     }`}
                   >

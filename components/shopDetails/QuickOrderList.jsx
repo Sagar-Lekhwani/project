@@ -195,12 +195,12 @@ export default function QuickOrderList() {
                               <div className="tf-price-list">
                                 {product.priceOnSale && (
                                   <div className="price-on-sale">
-                                    ${product.priceOnSale.toFixed(2)}
+                                    £{product.priceOnSale.toFixed(2)}
                                   </div>
                                 )}
                                 {product.price && (
                                   <div className="compare-at-price">
-                                    ${product.price.toFixed(2)}
+                                    £{product.price.toFixed(2)}
                                   </div>
                                 )}
                               </div>
@@ -213,7 +213,7 @@ export default function QuickOrderList() {
                             <div className="tf-variant-inner">
                               <div className="tf-price-list">
                                 <div className="price fw-6">
-                                  $
+                                  £
                                   {(product.price * product.quantity).toFixed(
                                     2
                                   )}
@@ -251,7 +251,7 @@ export default function QuickOrderList() {
                     <div className="tf-total-price">
                       <div className="tf-totals-variant-total">
                         <div className="price fw-6">
-                          $
+                          £
                           {currentProducts
                             .reduce(
                               (total, product) =>

@@ -69,7 +69,7 @@ export default function ShopGram() {
                     </a>
                   ) : (
                     <Link
-                      href={`/product-detail/${item.id}`}
+                      href={`/product-detail/£{item.id}`}
                       className="box-icon"
                     >
                       <span className="icon icon-bag" />

@@ -13,7 +13,7 @@ export default function BlogList() {
                 {blogArticles7.map((article, index) => (
                   <div key={index} className="blog-article-item style-row">
                     <div className="article-thumb">
-                      <Link href={`/blog-detail/${article.id}`}>
+                      <Link href={`/blog-detail/£{article.id}`}>
                         <Image
                           className="lazyload"
                           data-src={article.imgSrc}
@@ -27,21 +27,21 @@ export default function BlogList() {
                     <div className="article-content">
                       <div className="article-label">
                         <Link
-                          href={`/blog-detail/${article.id}`}
+                          href={`/blog-detail/£{article.id}`}
                           className="tf-btn btn-sm radius-3 btn-fill animate-hover-btn"
                         >
                           {article.label}
                         </Link>
                       </div>
                       <div className="article-title">
-                        <Link href={`/blog-detail/${article.id}`}>
+                        <Link href={`/blog-detail/£{article.id}`}>
                           {article.title}
                         </Link>
                       </div>
                       <div className="desc">{article.desc}</div>
                       <div className="article-btn">
                         <Link
-                          href={`/blog-detail/${article.id}`}
+                          href={`/blog-detail/£{article.id}`}
                           className="tf-btn btn-line fw-6"
                         >
                           Read more
@@ -118,7 +118,7 @@ export default function BlogList() {
                         <li key={article.id}>
                           <div className="blog-article-item style-sidebar">
                             <div className="article-thumb">
-                              <Link href={`/blog-detail/${article.id}`}>
+                              <Link href={`/blog-detail/£{article.id}`}>
                                 <Image
                                   alt={article.title}
                                   src={article.imgSrc}
@@ -130,14 +130,14 @@ export default function BlogList() {
                             <div className="article-content">
                               <div className="article-label">
                                 <Link
-                                  href={`/blog-detail/${article.id}`}
+                                  href={`/blog-detail/£{article.id}`}
                                   className="tf-btn btn-sm radius-3 btn-fill animate-hover-btn"
                                 >
                                   {article.label}
                                 </Link>
                               </div>
                               <div className="article-title">
-                                <Link href={`/blog-detail/${article.id}`}>
+                                <Link href={`/blog-detail/£{article.id}`}>
                                   {article.title}
                                 </Link>
                               </div>

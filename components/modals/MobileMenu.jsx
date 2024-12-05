@@ -46,8 +46,8 @@ export default function MobileMenu() {
             {navItems.map((item, i) => (
               <li key={i} className="nav-mb-item">
                 <a
-                  href={`#${item.id}`}
-                  className={`collapsed mb-menu-link current ${
+                  href={`#£{item.id}`}
+                  className={`collapsed mb-menu-link current £{
                     isMenuActive(item) ? "activeMenu" : ""
                   }`}
                   data-bs-toggle="collapse"
@@ -64,8 +64,8 @@ export default function MobileMenu() {
                         {subItem.links ? (
                           <>
                             <a
-                              href={`#${subItem.id}`}
-                              className={`sub-nav-link collapsed  ${
+                              href={`#£{subItem.id}`}
+                              className={`sub-nav-link collapsed  £{
                                 isMenuActive(subItem) ? "activeMenu" : ""
                               }`}
                               data-bs-toggle="collapse"
@@ -81,7 +81,7 @@ export default function MobileMenu() {
                                   <li key={i3}>
                                     <Link
                                       href={innerItem.href}
-                                      className={`sub-nav-link  ${
+                                      className={`sub-nav-link  £{
                                         isMenuActive(innerItem)
                                           ? "activeMenu"
                                           : ""
@@ -102,7 +102,7 @@ export default function MobileMenu() {
                         ) : (
                           <Link
                             href={subItem.href}
-                            className={`sub-nav-link ${
+                            className={`sub-nav-link £{
                               isMenuActive(subItem) ? "activeMenu" : ""
                             }`}
                           >
@@ -147,8 +147,8 @@ export default function MobileMenu() {
             </div>
             <ul className="mb-info">
               <li>
-                Address: 1234 Fashion Street, Suite 567, <br />
-                New York, NY 10001
+                Address: UK , London, <br />
+                
               </li>
               <li>
                 Email: <b>info@fashionshop.com</b>

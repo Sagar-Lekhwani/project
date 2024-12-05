@@ -31,19 +31,19 @@ export const slidesData = [
     imgSrc: "/images/collections/collection-27.jpg",
     alt: "collection-img",
     title: "Modern Backpack",
-    price: "$199",
+    price: "£199",
   },
   {
     imgSrc: "/images/collections/collection-28.jpg",
     alt: "collection-img",
     title: "Season Collection",
-    price: "$199",
+    price: "£199",
   },
   {
     imgSrc: "/images/collections/collection-26.jpg",
     alt: "collection-img",
     title: "Stradivarius top trainers",
-    price: "$199",
+    price: "£199",
   },
 ];
 
@@ -893,25 +893,25 @@ export const slides3 = [
     imgSrc: "/images/collections/kitchen-wear-1.jpg",
     imgAlt: "collection-img",
     heading: "Chef's Dutch Oven",
-    subheading: "Start from $199",
+    subheading: "Start from £199",
   },
   {
     imgSrc: "/images/collections/kitchen-wear-2.jpg",
     imgAlt: "collection-img",
     heading: "Swivel Peeler",
-    subheading: "Start from $299",
+    subheading: "Start from £299",
   },
   {
     imgSrc: "/images/collections/kitchen-wear-3.jpg",
     imgAlt: "collection-img",
     heading: "Bakeware Set",
-    subheading: "Start from $399",
+    subheading: "Start from £399",
   },
   {
     imgSrc: "/images/collections/kitchen-wear-2.jpg",
     imgAlt: "collection-img",
     heading: "Swivel Peeler",
-    subheading: "Start from $299",
+    subheading: "Start from £299",
   },
 ];
 
@@ -1130,22 +1130,22 @@ export const recentItems2 = [
   {
     imgSrc: "/images/collections/pod-store-5.jpg",
     title: "Desert Vibes Tee",
-    price: "Start from $12",
+    price: "Start from £12",
   },
   {
     imgSrc: "/images/collections/pod-store-6.jpg",
     title: "Personalized Gifts",
-    price: "Start from $20",
+    price: "Start from £20",
   },
   {
     imgSrc: "/images/collections/pod-store-7.jpg",
     title: "Custom Pet Portrait",
-    price: "Start from $30",
+    price: "Start from £30",
   },
   {
     imgSrc: "/images/collections/pod-store-6.jpg",
     title: "Personalized Gifts",
-    price: "Start from $20",
+    price: "Start from £20",
   },
 ];
 
@@ -1557,7 +1557,7 @@ export const collectionItemsV5 = [
     alt: "collection-img",
     imgWidth: 320,
     imgHeight: 453,
-    title: "Gifts $100 - $300",
+    title: "Gifts £100 - £300",
   },
   {
     id: "item-3",
@@ -1575,7 +1575,7 @@ export const collectionItemsV5 = [
     alt: "collection-img",
     imgWidth: 320,
     imgHeight: 453,
-    title: "Gifts Under $100",
+    title: "Gifts Under £100",
   },
   {
     id: "item-5",
@@ -1584,7 +1584,7 @@ export const collectionItemsV5 = [
     alt: "collection-img",
     imgWidth: 320,
     imgHeight: 453,
-    title: "Gifts Over $300",
+    title: "Gifts Over £300",
   },
   {
     id: "item-6",

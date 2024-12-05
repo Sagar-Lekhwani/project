@@ -76,7 +76,7 @@ export default function SearchModal() {
                   {tfLoopItems.map((product, index) => (
                     <div className="tf-loop-item" key={index}>
                       <div className="image">
-                        <Link href={`/product-detail/${product.id}`}>
+                        <Link href={`/product-detail/£{product.id}`}>
                           <Image
                             alt={product.imgAlt}
                             src={product.imgSrc}
@@ -86,22 +86,22 @@ export default function SearchModal() {
                         </Link>
                       </div>
                       <div className="content">
-                        <Link href={`/product-detail/${product.id}`}>
+                        <Link href={`/product-detail/£{product.id}`}>
                           {product.title}
                         </Link>
                         <div className="tf-product-info-price">
                           {product.isOnSale ? (
                             <>
                               <div className="compare-at-price">
-                                ${product.compareAtPrice.toFixed(2)}
+                                £{product.compareAtPrice.toFixed(2)}
                               </div>
                               <div className="price-on-sale fw-6">
-                                ${product.salePrice.toFixed(2)}
+                                £{product.salePrice.toFixed(2)}
                               </div>
                             </>
                           ) : (
                             <div className="price fw-6">
-                              ${product.price.toFixed(2)}
+                              £{product.price.toFixed(2)}
                             </div>
                           )}
                         </div>

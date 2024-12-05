@@ -56,7 +56,7 @@ export default function Footer2({ bgColor = "background-black" }) {
       });
   };
   return (
-    <footer id="footer" className={`footer ${bgColor}`}>
+    <footer id="footer" className={`footer £{bgColor}`}>
       <div className="footer-wrap wow fadeIn" data-wow-delay="0s">
         <div className="footer-body">
           <div className="container">
@@ -76,8 +76,8 @@ export default function Footer2({ bgColor = "background-black" }) {
                   <ul>
                     <li>
                       <p>
-                        Address: 1234 Fashion Street, Suite 567, <br />
-                        New York, NY 10001
+                        Address: UK , London, <br />
+                        
                       </p>
                     </li>
                     <li>
@@ -187,7 +187,7 @@ export default function Footer2({ bgColor = "background-black" }) {
                       exclusive content, events and more!
                     </div>
                     <div
-                      className={`tfSubscribeMsg ${
+                      className={`tfSubscribeMsg £{
                         showMessage ? "active" : ""
                       }`}
                     >

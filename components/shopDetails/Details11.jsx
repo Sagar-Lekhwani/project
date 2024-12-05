@@ -51,7 +51,7 @@ export default function Details11() {
                     <h5>Cotton jersey top</h5>
                   </div>
                   <div className="tf-product-info-price">
-                    <div className="price">${product.price.toFixed(2)}</div>
+                    <div className="price">£{product.price.toFixed(2)}</div>
                   </div>
                   <div className="tf-product-info-liveview">
                     <div className="liveview-count">20</div>
@@ -126,7 +126,7 @@ export default function Details11() {
                               data-value={color.value}
                             >
                               <span
-                                className={`btn-checkbox ${color.className}`}
+                                className={`btn-checkbox £{color.className}`}
                               />
                               <span className="tooltip">{color.value}</span>
                             </label>
@@ -185,7 +185,7 @@ export default function Details11() {
                       >
                         <span>Add to cart -&nbsp;</span>
                         <span className="tf-qty-price">
-                          ${(product.price * quantity).toFixed(2)}
+                          £{(product.price * quantity).toFixed(2)}
                         </span>
                       </a>
                       <a

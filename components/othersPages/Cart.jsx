@@ -66,7 +66,7 @@ export default function Cart() {
                     <tr key={i} className="tf-cart-item file-delete">
                       <td className="tf-cart-item_product">
                         <Link
-                          href={`/product-detail/${elm.id}`}
+                          href={`/product-detail/£{elm.id}`}
                           className="img-box"
                         >
                           <Image
@@ -78,7 +78,7 @@ export default function Cart() {
                         </Link>
                         <div className="cart-info">
                           <Link
-                            href={`/product-detail/${elm.id}`}
+                            href={`/product-detail/£{elm.id}`}
                             className="cart-title link"
                           >
                             {elm.title}
@@ -97,7 +97,7 @@ export default function Cart() {
                         cart-data-title="Price"
                       >
                         <div className="cart-price">
-                          ${elm.price.toFixed(2)}
+                          £{elm.price.toFixed(2)}
                         </div>
                       </td>
                       <td
@@ -158,7 +158,7 @@ export default function Cart() {
                           className="cart-total"
                           style={{ minWidth: "60px" }}
                         >
-                          ${(elm.price * elm.quantity).toFixed(2)}
+                          £{(elm.price * elm.quantity).toFixed(2)}
                         </div>
                       </td>
                     </tr>
@@ -215,7 +215,7 @@ export default function Cart() {
                   </span>
                 </div>
                 <div className="tf-progress-msg">
-                  Buy <span className="price fw-6">$75.00</span> more to enjoy{" "}
+                  Buy <span className="price fw-6">£75.00</span> more to enjoy{" "}
                   <span className="fw-6">Free Shipping</span>
                 </div>
               </div>
@@ -272,11 +272,11 @@ export default function Cart() {
                           <option value="Finland" data-provinces="[]">
                             Finland
                           </option>
-                          <option value="France" data-provinces="[]">
-                            France
+                          <option value="UK" data-provinces="[]">
+                            UK
                           </option>
-                          <option value="Germany" data-provinces="[]">
-                            Germany
+                          <option value="UK" data-provinces="[]">
+                            UK
                           </option>
                           <option
                             value="Hong Kong"
@@ -366,13 +366,13 @@ export default function Cart() {
                             United Kingdom
                           </option>
                           <option
-                            value="United States"
+                            value="United Kingdom"
                             data-provinces="[['Alabama','Alabama'],['Alaska','Alaska'],['American Samoa','American Samoa'],['Arizona','Arizona'],['Arkansas','Arkansas'],['Armed Forces Americas','Armed Forces Americas'],['Armed Forces Europe','Armed Forces Europe'],['Armed Forces Pacific','Armed Forces Pacific'],['California','California'],['Colorado','Colorado'],['Connecticut','Connecticut'],['Delaware','Delaware'],['District of Columbia','Washington DC'],['Federated States of Micronesia','Micronesia'],['Florida','Florida'],['Georgia','Georgia'],['Guam','Guam'],['Hawaii','Hawaii'],['Idaho','Idaho'],['Illinois','Illinois'],['Indiana','Indiana'],['Iowa','Iowa'],['Kansas','Kansas'],['Kentucky','Kentucky'],['Louisiana','Louisiana'],['Maine','Maine'],['Marshall Islands','Marshall Islands'],['Maryland','Maryland'],['Massachusetts','Massachusetts'],['Michigan','Michigan'],['Minnesota','Minnesota'],['Mississippi','Mississippi'],['Missouri','Missouri'],['Montana','Montana'],['Nebraska','Nebraska'],['Nevada','Nevada'],['New Hampshire','New Hampshire'],['New Jersey','New Jersey'],['New Mexico','New Mexico'],['New York','New York'],['North Carolina','North Carolina'],['North Dakota','North Dakota'],['Northern Mariana Islands','Northern Mariana Islands'],['Ohio','Ohio'],['Oklahoma','Oklahoma'],['Oregon','Oregon'],['Palau','Palau'],['Pennsylvania','Pennsylvania'],['Puerto Rico','Puerto Rico'],['Rhode Island','Rhode Island'],['South Carolina','South Carolina'],['South Dakota','South Dakota'],['Tennessee','Tennessee'],['Texas','Texas'],['Utah','Utah'],['Vermont','Vermont'],['Virgin Islands','U.S. Virgin Islands'],['Virginia','Virginia'],['Washington','Washington'],['West Virginia','West Virginia'],['Wisconsin','Wisconsin'],['Wyoming','Wyoming']]"
                           >
-                            United States
+                            United Kingdom
                           </option>
-                          <option value="Vietnam" data-provinces="[]">
-                            Vietnam
+                          <option value="UK" data-provinces="[]">
+                            UK
                           </option>
                         </select>
                       </fieldset>
@@ -394,13 +394,13 @@ export default function Cart() {
                   />
                   <label htmlFor="cart-gift-checkbox" className="fw-4">
                     <span>Do you want a gift wrap?</span> Only
-                    <span className="fw-5">$5.00</span>
+                    <span className="fw-5">£5.00</span>
                   </label>
                 </div>
                 <div className="tf-cart-totals-discounts">
                   <h3>Subtotal</h3>
                   <span className="total-value">
-                    ${totalPrice.toFixed(2)} USD
+                    £{totalPrice.toFixed(2)} USD
                   </span>
                 </div>
                 <p className="tf-cart-tax">

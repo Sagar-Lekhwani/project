@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function Features({ bgColor = "bg_grey-7", titleFont = "" }) {
   return (
     <section
-      className={`flat-spacing-1 flat-iconbox  wow fadeInUp ${bgColor}`}
+      className={`flat-spacing-1 flat-iconbox  wow fadeInUp £{bgColor}`}
       data-wow-delay="0s"
     >
       <div className="container">
@@ -31,7 +31,7 @@ export default function Features({ bgColor = "bg_grey-7", titleFont = "" }) {
                     <i className={box.iconClass} />
                   </div>
                   <div className="content">
-                    <div className={`title fw-4 ${titleFont}`}>{box.title}</div>
+                    <div className={`title fw-4 £{titleFont}`}>{box.title}</div>
                     <p>{box.description}</p>
                   </div>
                 </div>

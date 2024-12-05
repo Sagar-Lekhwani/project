@@ -16,12 +16,12 @@ export default function ProductCard6({ product }) {
   } = useContextElement();
   return (
     <div
-      className={`card-product style-price radius-20 ${
+      className={`card-product style-price radius-20 £{
         product.populer ? "bg_black " : ""
       }`}
     >
       <div className="card-product-wrapper">
-        <Link href={`/product-detail/${product.id}`} className="product-img">
+        <Link href={`/product-detail/£{product.id}`} className="product-img">
           <Image
             className="lazyload img-product"
             src={currentImage}
@@ -52,7 +52,7 @@ export default function ProductCard6({ product }) {
             className="box-icon wishlist btn-icon-action"
           >
             <span
-              className={`icon icon-heart ${
+              className={`icon icon-heart £{
                 isAddedtoWishlist(product.id) ? "added" : ""
               }`}
             />
@@ -71,7 +71,7 @@ export default function ProductCard6({ product }) {
             className="box-icon compare btn-icon-action"
           >
             <span
-              className={`icon icon-compare ${
+              className={`icon icon-compare £{
                 isAddedtoCompareItem(product.id) ? "added" : ""
               }`}
             />
@@ -96,9 +96,9 @@ export default function ProductCard6({ product }) {
         <div className="on-sale-wrap text-end">
           <div
             className={`on-sale-item 
-              ${product.populer ? "best-seller" : ""} 
-              ${product.new ? "new" : ""} 
-              ${product.recommend ? "recommend" : ""} 
+              £{product.populer ? "best-seller" : ""} 
+              £{product.new ? "new" : ""} 
+              £{product.recommend ? "recommend" : ""} 
             `}
           >
             {" "}
@@ -113,7 +113,7 @@ export default function ProductCard6({ product }) {
           {product.vendor}
         </Link>
         <Link
-          href={`/product-detail/${product.id}`}
+          href={`/product-detail/£{product.id}`}
           className="title fw-7 link"
         >
           {product.title}
@@ -122,13 +122,13 @@ export default function ProductCard6({ product }) {
           {product.colors.map((color, idx) => (
             <li
               key={idx}
-              className={`list-color-item color-swatch ${
+              className={`list-color-item color-swatch £{
                 currentImage == color.image ? "active" : ""
               }  `}
               onMouseOver={() => setCurrentImage(color.image)}
             >
               <span className="tooltip">{color.color}</span>
-              <span className={`swatch-value ${color.bgColor}`} />
+              <span className={`swatch-value £{color.bgColor}`} />
               <Image
                 className="lazyload"
                 data-src={color.image}
@@ -140,7 +140,7 @@ export default function ProductCard6({ product }) {
             </li>
           ))}
         </ul>
-        <div className="price">${product.price.toFixed(2)}</div>
+        <div className="price">£{product.price.toFixed(2)}</div>
       </div>
       <div className="tf-price-table-contents">
         <ul>
@@ -152,8 +152,8 @@ export default function ProductCard6({ product }) {
         </ul>
         <div className="tf-price-table-btn text-center">
           <Link
-            href={`/product-detail/${product.id}`}
-            className={`tf-btn btn-md  rounded-full ${
+            href={`/product-detail/£{product.id}`}
+            className={`tf-btn btn-md  rounded-full £{
               product.populer ? "btn-light-icon" : "btn-fill btn-icon"
             }  animate-hover-btn`}
           >

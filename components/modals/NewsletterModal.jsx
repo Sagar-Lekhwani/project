@@ -83,7 +83,7 @@ export default function NewsletterModal() {
             <h6 className="text-center">
               Be the first one to get the new product at early bird prices.
             </h6>
-            <div className={`tfSubscribeMsg ${showMessage ? "active" : ""}`}>
+            <div className={`tfSubscribeMsg £{showMessage ? "active" : ""}`}>
               {success ? (
                 <p style={{ color: "rgb(52, 168, 83)" }}>
                   You have successfully subscribed.

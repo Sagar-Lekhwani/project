@@ -65,10 +65,10 @@ export default function Detaila20({ product }) {
                   </div>
                   <div className="tf-product-info-price">
                     <div className="price-on-sale">
-                      ${product.price.toFixed(2)}
+                      £{product.price.toFixed(2)}
                     </div>
                     <div className="compare-at-price">
-                      ${currentColor.oldPrice.toFixed(2)}
+                      £{currentColor.oldPrice.toFixed(2)}
                     </div>
                     <div className="badges-on-sale">
                       <span>20</span>% OFF
@@ -103,7 +103,7 @@ export default function Detaila20({ product }) {
                               data-value={color.value}
                             >
                               <span
-                                className={`btn-checkbox ${color.className}`}
+                                className={`btn-checkbox £{color.className}`}
                               />
                               <span className="tooltip">{color.value}</span>
                             </label>
@@ -171,7 +171,7 @@ export default function Detaila20({ product }) {
                           -{" "}
                         </span>
                         <span className="tf-qty-price">
-                          ${(product.price * quantity).toFixed(2)}
+                          £{(product.price * quantity).toFixed(2)}
                         </span>
                       </a>
                       <a
@@ -179,7 +179,7 @@ export default function Detaila20({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action"
                       >
                         <span
-                          className={`icon icon-heart ${
+                          className={`icon icon-heart £{
                             isAddedtoWishlist(product.id) ? "added" : ""
                           }`}
                         />
@@ -199,7 +199,7 @@ export default function Detaila20({ product }) {
                         className="tf-product-btn-wishlist hover-tooltip box-icon bg_white compare btn-icon-action"
                       >
                         <span
-                          className={`icon icon-compare ${
+                          className={`icon icon-compare £{
                             isAddedtoCompareItem(product.id) ? "added" : ""
                           }`}
                         />
@@ -442,8 +442,8 @@ export default function Detaila20({ product }) {
                     </select>
                   </div>
                   <div className="tf-product-bundle-price">
-                    <div className="compare-at-price">$30.00</div>
-                    <div className="price-on-sale">$25.00</div>
+                    <div className="compare-at-price">£30.00</div>
+                    <div className="price-on-sale">£25.00</div>
                   </div>
                 </div>
                 <div className="tf-product-bundle-infos">
@@ -470,7 +470,7 @@ export default function Detaila20({ product }) {
                     </select>
                   </div>
                   <div className="tf-product-bundle-price">
-                    <div className="price">$18.00</div>
+                    <div className="price">£18.00</div>
                   </div>
                 </div>
                 <div className="tf-product-bundle-infos">
@@ -488,7 +488,7 @@ export default function Detaila20({ product }) {
                     Oversized Motif T-shirt
                   </a>
                   <div className="tf-product-bundle-price">
-                    <div className="price">$25.00</div>
+                    <div className="price">£25.00</div>
                   </div>
                 </div>
                 <div className="tf-product-bundle-infos">
@@ -515,7 +515,7 @@ export default function Detaila20({ product }) {
                     </select>
                   </div>
                   <div className="tf-product-bundle-price">
-                    <div className="price">$18.00</div>
+                    <div className="price">£18.00</div>
                   </div>
                 </div>
               </div>
@@ -523,8 +523,8 @@ export default function Detaila20({ product }) {
             <div className="tf-fbt-col-total-price">
               <div className="tf-product-bundle-total-submit flex-wrap justify-content-center">
                 <div className="text w-100 text-center">Total price:</div>
-                <div className="compare-at-price">$86.00</div>
-                <div className="price-on-sale">$91.00</div>
+                <div className="compare-at-price">£86.00</div>
+                <div className="price-on-sale">£91.00</div>
               </div>
               <a
                 href="#"

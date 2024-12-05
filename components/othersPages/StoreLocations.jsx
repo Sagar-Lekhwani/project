@@ -10,7 +10,7 @@ export default function StoreLocations() {
           <div className="col-xl-4 col-md-5 col-12">
             <div className="tf-store-list d-flex gap-10 flex-column widget-menu-tab">
               <div
-                className={`tf-store-item item-title ${
+                className={`tf-store-item item-title £{
                   activeTab == 1 ? "active" : ""
                 }  default`}
                 onClick={() => setActiveTab(1)}
@@ -23,7 +23,7 @@ export default function StoreLocations() {
                 </h6>
                 <div className="tf-store-info">
                   <span>Address</span>
-                  <p>93 Rue du Chevalier de la Barre, 961821 Paris, France</p>
+                  <p>93 Rue du Chevalier de la Barre, 961821 Paris, UK</p>
                 </div>
                 <div className="tf-store-info">
                   <span>Phone</span>
@@ -35,7 +35,7 @@ export default function StoreLocations() {
                 </div>
               </div>
               <div
-                className={`tf-store-item item-title ${
+                className={`tf-store-item item-title £{
                   activeTab == 2 ? "active" : ""
                 }  default`}
                 onClick={() => setActiveTab(2)}
@@ -60,7 +60,7 @@ export default function StoreLocations() {
                 </div>
               </div>
               <div
-                className={`tf-store-item item-title ${
+                className={`tf-store-item item-title £{
                   activeTab == 3 ? "active" : ""
                 }  default`}
                 onClick={() => setActiveTab(3)}
@@ -85,7 +85,7 @@ export default function StoreLocations() {
                 </div>
               </div>
               <div
-                className={`tf-store-item item-title ${
+                className={`tf-store-item item-title £{
                   activeTab == 4 ? "active" : ""
                 }  default`}
                 onClick={() => setActiveTab(4)}
@@ -114,7 +114,7 @@ export default function StoreLocations() {
           <div className="col-xl-8 col-md-7 col-12">
             <div className="widget-content-tab">
               <div
-                className={`widget-content-inner ${
+                className={`widget-content-inner £{
                   activeTab == 1 ? "active" : ""
                 }  p-0`}
               >
@@ -129,7 +129,7 @@ export default function StoreLocations() {
                 />
               </div>
               <div
-                className={`widget-content-inner ${
+                className={`widget-content-inner £{
                   activeTab == 2 ? "active" : ""
                 }  p-0`}
               >
@@ -144,7 +144,7 @@ export default function StoreLocations() {
                 />
               </div>
               <div
-                className={`widget-content-inner ${
+                className={`widget-content-inner £{
                   activeTab == 3 ? "active" : ""
                 }  p-0`}
               >
@@ -159,7 +159,7 @@ export default function StoreLocations() {
                 />
               </div>
               <div
-                className={`widget-content-inner ${
+                className={`widget-content-inner £{
                   activeTab == 4 ? "active" : ""
                 }  p-0`}
               >

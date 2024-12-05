@@ -41,13 +41,13 @@ export default function ShopLoadmore() {
               {layouts.map((layout, index) => (
                 <li
                   key={index}
-                  className={`tf-view-layout-switch ${layout.className} ${
+                  className={`tf-view-layout-switch £{layout.className} £{
                     gridItems == layout.dataValueGrid ? "active" : ""
                   }`}
                   onClick={() => setGridItems(layout.dataValueGrid)}
                 >
                   <div className="item">
-                    <span className={`icon ${layout.iconClass}`} />
+                    <span className={`icon £{layout.iconClass}`} />
                   </div>
                 </li>
               ))}
@@ -65,7 +65,7 @@ export default function ShopLoadmore() {
             <div className="tf-pagination-wrap view-more-button text-center tf-pagination-btn">
               {!loaded && (
                 <button
-                  className={`tf-btn-loading tf-loading-default animate-hover-btn btn-loadmore ${
+                  className={`tf-btn-loading tf-loading-default animate-hover-btn btn-loadmore £{
                     loading ? "loading" : ""
                   } `}
                   onClick={() => handleLoad()}

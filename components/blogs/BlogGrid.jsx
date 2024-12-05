@@ -11,7 +11,7 @@ export default function BlogGrid() {
             <div className="col-xl-4 col-md-6 col-12" key={index}>
               <div className="blog-article-item">
                 <div className="article-thumb">
-                  <Link href={`/blog-detail/${post.id}`}>
+                  <Link href={`/blog-detail/£{post.id}`}>
                     <Image
                       className="lazyload"
                       data-src={post.imgSrc}
@@ -23,7 +23,7 @@ export default function BlogGrid() {
                   </Link>
                   <div className="article-label">
                     <Link
-                      href={`/blog-detail/${post.id}`}
+                      href={`/blog-detail/£{post.id}`}
                       className="tf-btn btn-sm radius-3 btn-fill animate-hover-btn"
                     >
                       {post.category}
@@ -32,11 +32,11 @@ export default function BlogGrid() {
                 </div>
                 <div className="article-content">
                   <div className="article-title">
-                    <Link href={`/blog-detail/${post.id}`}>{post.title}</Link>
+                    <Link href={`/blog-detail/£{post.id}`}>{post.title}</Link>
                   </div>
                   <div className="article-btn">
                     <Link
-                      href={`/blog-detail/${post.id}`}
+                      href={`/blog-detail/£{post.id}`}
                       className="tf-btn btn-line fw-6"
                     >
                       Read more

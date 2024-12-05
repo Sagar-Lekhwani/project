@@ -31,13 +31,13 @@ export default function ShopSidebarRight() {
               {layouts.slice(0, 3).map((layout, index) => (
                 <li
                   key={index}
-                  className={`tf-view-layout-switch ${layout.className} ${
+                  className={`tf-view-layout-switch £{layout.className} £{
                     gridItems == layout.dataValueGrid ? "active" : ""
                   }`}
                   onClick={() => setGridItems(layout.dataValueGrid)}
                 >
                   <div className="item">
-                    <span className={`icon ${layout.iconClass}`} />
+                    <span className={`icon £{layout.iconClass}`} />
                   </div>
                 </li>
               ))}

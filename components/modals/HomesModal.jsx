@@ -36,7 +36,7 @@ export default function HomesModal() {
                           {item.labels.map((label, labelIndex) => (
                             <span
                               key={labelIndex}
-                              className={`demo-${label.toLowerCase()}`}
+                              className={`demo-£{label.toLowerCase()}`}
                             >
                               {label}
                             </span>
@@ -45,7 +45,7 @@ export default function HomesModal() {
                       )}
                     </div>
                     <span
-                      className={`demo-name  ${
+                      className={`demo-name  £{
                         pathname == item.href ? "activeMenu" : ""
                       }`}
                     >

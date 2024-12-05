@@ -22,7 +22,7 @@ export default function Sidebar() {
         <div id="categories" className="collapse show">
           <ul className="list-categoris current-scrollbar mb_36">
             {categories.map((category, index) => (
-              <li key={index} className={`cate-item ${category.className}`}>
+              <li key={index} className={`cate-item £{category.className}`}>
                 <a href="#">
                   <span>{category.name}</span>&nbsp;
                   <span>({category.count})</span>
@@ -48,7 +48,7 @@ export default function Sidebar() {
             {featuredProducts.map((product, index) => (
               <div className="featured-product-item" key={index}>
                 <Link
-                  href={`/product-detail/${product.id}`}
+                  href={`/product-detail/£{product.id}`}
                   className="card-product-wrapper"
                 >
                   <Image
@@ -61,12 +61,12 @@ export default function Sidebar() {
                 </Link>
                 <div className="card-product-info">
                   <Link
-                    href={`/product-detail/${product.id}`}
+                    href={`/product-detail/£{product.id}`}
                     className="title link"
                   >
                     {product.title}
                   </Link>
-                  <span className="price">${product.price.toFixed(2)}</span>
+                  <span className="price">£{product.price.toFixed(2)}</span>
                 </div>
               </div>
             ))}
@@ -195,9 +195,9 @@ export default function Sidebar() {
               <li key={index}>
                 <a
                   href={link.href}
-                  className={`box-icon w_34 round bg_line ${link.className}`}
+                  className={`box-icon w_34 round bg_line £{link.className}`}
                 >
-                  <i className={`icon ${link.iconSize} ${link.iconClass}`} />
+                  <i className={`icon £{link.iconSize} £{link.iconClass}`} />
                 </a>
               </li>
             ))}

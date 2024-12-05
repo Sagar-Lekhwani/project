@@ -37,7 +37,7 @@ export default function Productcard23({ product }) {
         <a href="#" className="title link">
           {product.title}
         </a>
-        <span className="price">${product.price.toFixed(2)}</span>
+        <span className="price">£{product.price.toFixed(2)}</span>
         <p className="description">
           Button-up shirt sleeves and a relaxed silhouette. It’s tailored with
           drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™
@@ -48,14 +48,14 @@ export default function Productcard23({ product }) {
           <ul className="list-color-product">
             {product.colors.map((color) => (
               <li
-                className={`list-color-item color-swatch ${
+                className={`list-color-item color-swatch £{
                   currentImage == color.imgSrc ? "active" : ""
                 } `}
                 onMouseOver={() => setCurrentImage(color.imgSrc)}
                 key={color.name}
               >
                 <span className="tooltip">{color.name}</span>
-                <span className={`swatch-value ${color.colorClass}`} />
+                <span className={`swatch-value £{color.colorClass}`} />
                 <Image
                   className="lazyload"
                   data-src={color.imgSrc}
@@ -90,7 +90,7 @@ export default function Productcard23({ product }) {
             className="box-icon wishlist style-3 hover-tooltip"
           >
             <span
-              className={`icon icon-heart ${
+              className={`icon icon-heart £{
                 isAddedtoWishlist(product.id) ? "added" : ""
               }`}
             />
@@ -109,7 +109,7 @@ export default function Productcard23({ product }) {
             className="box-icon compare style-3 hover-tooltip"
           >
             <span
-              className={`icon icon-compare ${
+              className={`icon icon-compare £{
                 isAddedtoCompareItem(product.id) ? "added" : ""
               }`}
             />
