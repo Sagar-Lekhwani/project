@@ -13,7 +13,7 @@ export const testimonials = [
     heading: "Great Selection and Quality",
     text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
     name: "Allen Lyn",
-    metas: "Customer from UK",
+    metas: "Customer from France",
     imageSrc: "/images/shop/products/img-p3.png",
     productTitle: "Cotton jersey top",
     price: "£7.95",
@@ -372,7 +372,7 @@ export const testimonialData = [
     heading: "Great Selection and Quality",
     text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
     authorName: "Allen Lyn",
-    authorMeta: "Customer from UK",
+    authorMeta: "Customer from France",
     productImgSrc: "/images/products/decor-12.jpg",
     productTitle: "Cotton jersey top",
     productPrice: "£7.95",
@@ -415,7 +415,7 @@ export const testimonials7 = [
     heading: "Great Selection and Quality",
     text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
     authorName: "Allen Lyn",
-    authorMeta: "Customer from UK",
+    authorMeta: "Customer from France",
     productImage: "/images/collections/electronic-12.png",
     productTitle: "SoundForm Rise",
     productPrice: "£7.95",
@@ -465,7 +465,7 @@ export const testimonials8 = [
     text: "“ I love the variety of styles and the high-quality clothing on this web fashion site.”",
     author: {
       name: "Allen Lyn",
-      meta: "Customer from UK",
+      meta: "Customer from France",
     },
     product: {
       imgSrc: "/images/collections/setup-gear-2.jpg",
@@ -529,7 +529,7 @@ export const slides2 = [
     rating: 5,
     heading: "Great Selection and Quality",
     text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
-    author: { name: "Allen Lyn", metas: "Customer from UK" },
+    author: { name: "Allen Lyn", metas: "Customer from France" },
     product: {
       imgSrc: "/images/item/lookbook-item-2.jpg",
       title: "Whistling Tea Kettle",
@@ -711,7 +711,7 @@ export const testimonials10 = [
     text: "“ I love the variety of styles and the high-quality clothing on this web fashion site.”",
     author: {
       name: "Allen Lyn",
-      metas: "Customer from UK",
+      metas: "Customer from France",
     },
     product: {
       imgSrc: "/images/products/pod-store-8.jpg",

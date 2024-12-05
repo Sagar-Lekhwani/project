@@ -23,7 +23,7 @@ export default function StoreLocations() {
                 </h6>
                 <div className="tf-store-info">
                   <span>Address</span>
-                  <p>93 Rue du Chevalier de la Barre, 961821 Paris, UK</p>
+                  <p>93 Rue du Chevalier de la Barre, 961821 Paris, France</p>
                 </div>
                 <div className="tf-store-info">
                   <span>Phone</span>

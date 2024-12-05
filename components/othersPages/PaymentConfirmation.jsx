@@ -34,7 +34,7 @@ export default function PaymentConfirmation() {
               </div>
               <div className="d-flex align-items-center justify-content-between mb_24">
                 <div className="fs-22 fw-6">Subtotal</div>
-                <span className="total-value">£188.00 USD</span>
+                <span className="total-value">£188.00 UK</span>
               </div>
               <div className="d-flex gap-10">
                 <Link

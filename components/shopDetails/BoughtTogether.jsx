@@ -132,8 +132,8 @@ export default function BoughtTogether() {
       </div>
       <div className="tf-product-bundle-total-submit">
         <span className="text">Total price:</span>
-        <div className="compare-at-price">£51.00 USD</div>
-        <div className="price-on-sale">£53.00 USD</div>
+        <div className="compare-at-price">£51.00 UK</div>
+        <div className="price-on-sale">£53.00 UK</div>
       </div>
       <a
         href="#"

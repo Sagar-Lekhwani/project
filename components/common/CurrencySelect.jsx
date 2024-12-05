@@ -7,23 +7,23 @@ const optionsData = [
   {
     value: "fr",
     thumbnail: "/images/country/fr.svg",
-    text: "UK€ | UK",
+    text: "EUR € | France",
   },
   {
     value: "de",
     thumbnail: "/images/country/de.svg",
-    text: "UK€ | UK",
+    text: "EUR € | Germany",
   },
   {
     value: "us",
     thumbnail: "/images/country/us.svg",
-    text: "USD £ | United Kingdom",
+    text: "UK € | United Kingdom",
     selected: true,
   },
   {
     value: "vn",
     thumbnail: "/images/country/vn.svg",
-    text: "UK ₫ | UK",
+    text: "UK € | United Kingdom",
   },
 ];
 export default function CurrencySelect({ topStart = false, light = false }) {
@@ -52,15 +52,15 @@ export default function CurrencySelect({ topStart = false, light = false }) {
     <div
       ref={languageSelect}
       onClick={() => setIsDDOpen((pre) => !pre)}
-      className={`dropdown bootstrap-select image-select center style-default type-currencies £{
+      className={`dropdown bootstrap-select image-select center style-default type-currencies ${
         light ? "color-white" : ""
       } dropup`}
     >
       <button
         type="button"
         tabIndex={-1}
-        className={`btn dropdown-toggle btn-light  £{isDDOpen ? "show" : ""} `}
-        title="USD £ | United Kingdom"
+        className={`btn dropdown-toggle btn-light  ${isDDOpen ? "show" : ""} `}
+        title="EUR € | United Kingdom"
       >
         <div className="filter-option">
           <div className="filter-option-inner">
@@ -77,7 +77,7 @@ export default function CurrencySelect({ topStart = false, light = false }) {
         </div>
       </button>
       <div
-        className={`dropdown-menu £{isDDOpen ? "show" : ""} `}
+        className={`dropdown-menu ${isDDOpen ? "show" : ""} `}
         style={{
           maxHeight: "899.688px",
           overflow: "hidden",
@@ -85,9 +85,9 @@ export default function CurrencySelect({ topStart = false, light = false }) {
           position: "absolute",
           inset: "auto auto 0px 0px",
           margin: 0,
-          transform: `translate(0px, £{topStart ? 22 : -20}px)`,
+          transform: `translate(0px, ${topStart ? 22 : -20}px)`,
         }}
-        data-popper-placement={`£{!topStart ? "top" : "bottom"}-start`}
+        data-popper-placement={`${!topStart ? "top" : "bottom"}-start`}
       >
         <div
           className="inner show"
@@ -101,7 +101,7 @@ export default function CurrencySelect({ topStart = false, light = false }) {
             {optionsData.map((elm, i) => (
               <li onClick={() => setSelected(elm)} key={i}>
                 <a
-                  className={`dropdown-item £{
+                  className={`dropdown-item ${
                     selected == elm ? "active selected" : ""
                   }`}
                 >
