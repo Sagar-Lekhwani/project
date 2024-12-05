@@ -41,7 +41,7 @@ export default function Products() {
         {!loaded && (
           <div className="tf-pagination-wrap view-more-button text-center">
             <button
-              className={`tf-btn-loading tf-loading-default style-2 btn-loadmore £{
+              className={`tf-btn-loading tf-loading-default style-2 btn-loadmore ${
                 loading ? "loading" : ""
               } `}
               onClick={() => handleLoad()}
