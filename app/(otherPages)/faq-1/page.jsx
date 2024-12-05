@@ -1,8 +1,8 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import Faq1 from "@/components/othersPages/faq/Faq1";
-import Faq2 from "@/components/othersPages/faq/Faq2";
-import Faq3 from "@/components/othersPages/faq/Faq3";
+// import Faq2 from "@/components/othersPages/faq/Faq2";
+// import Faq3 from "@/components/othersPages/faq/Faq3";
 import React from "react";
 import Link from "next/link";
 export const metadata = {
