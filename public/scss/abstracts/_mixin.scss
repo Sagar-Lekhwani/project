@@ -1,12 +1,12 @@
 
-@mixin flex(£alignItem, £justifyContent) {
+@mixin flex($alignItem, $justifyContent) {
     display: flex;
-    align-items: £alignItem;
-    justify-content: £justifyContent;
+    align-items: $alignItem;
+    justify-content: $justifyContent;
 }
-@mixin grid(£loop, £num) {
+@mixin grid($loop, $num) {
     display: grid;
-    grid-template-columns: repeat(£loop, £num);
+    grid-template-columns: repeat($loop, $num);
 }
 @mixin transformScale {
     transform: scale(1);
@@ -116,7 +116,7 @@
 
 @mixin boxshadow {
     content: "";
-    border: 1px solid £outline;
+    border: 1px solid $outline;
     position: absolute;
     right: -11px;
     bottom: -11px;
