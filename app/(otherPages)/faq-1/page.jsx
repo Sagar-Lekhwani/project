@@ -26,8 +26,8 @@ export default function page() {
             <div className="tf-accordion-wrap d-flex justify-content-between">
               <div className="content">
                 <Faq1 />
-                <Faq2 />
-                <Faq3 />
+                {/* <Faq2 /> */}
+                {/* <Faq3 /> */}
               </div>
               <div className="box tf-other-content radius-10 bg_grey-8">
                 <h5 className="mb_20">Have a question</h5>
