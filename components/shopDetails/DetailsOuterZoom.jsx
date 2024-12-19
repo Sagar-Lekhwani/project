@@ -72,10 +72,10 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                   <div className="tf-product-info-badges">
                     <div className="badges">Best seller</div>
                     <div className="product-status-content">
-                      <i className="icon-lightning" />
+                      {/* <i className="icon-lightning" />
                       <p className="fw-6">
                         Selling fast! 56 people have this in their carts.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <div className="tf-product-info-price">
@@ -92,10 +92,11 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                     </div>
                   </div>
                   <div className="tf-product-info-liveview">
-                    <div className="liveview-count">20</div>
-                    <p className="fw-6">People are viewing this right now</p>
+                    {/* <div className="liveview-count">20</div> */}
+                    <p className="fw-6">Many Prople have purchased this items this month
+                    </p>
                   </div>
-                  <div className="tf-product-info-countdown">
+                  {/* <div className="tf-product-info-countdown">
                     <div className="countdown-wrap">
                       <div className="countdown-title">
                         <i className="icon-time tf-ani-tada" />
@@ -107,7 +108,7 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="tf-product-info-variant-picker">
                     <div className="variant-picker-item">
                       <div className="variant-picker-label">

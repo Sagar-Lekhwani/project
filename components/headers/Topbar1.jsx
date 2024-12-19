@@ -46,7 +46,7 @@ export default function Topbar1() {
             </li>
           </ul>
           <div className="text-center overflow-hidden">
-            <Swiper
+            {/* <Swiper
               dir="ltr"
               className="swiper tf-sw-top_bar"
               slidesPerView={1}
@@ -80,7 +80,7 @@ export default function Topbar1() {
                   Time to refresh your wardrobe.
                 </p>
               </SwiperSlide>
-            </Swiper>
+            </Swiper> */}
           </div>
           <div className="top-bar-language tf-cur justify-content-end">
             <div className="tf-currencies">

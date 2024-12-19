@@ -23,10 +23,10 @@ export default function Home() {
       <Topbar1 />
       <Header1 />
       <Hero />
-      <Marquee />
+      {/* <Marquee /> */}
       <Categories />
       <Products />
-      <Lookbook />
+      {/* <Lookbook /> */}
       <Testimonials />
       <Brands />
       <ShopGram />
